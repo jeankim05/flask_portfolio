@@ -4,6 +4,8 @@ Runtime link: https://portfolio.nighthawkcodingsociety.com/
 
 
 Jean
+
+Alex Do
 Starter code should be fun and practical.
 ### Visual thoughts
 #### Organize with Bootstrap menu 
