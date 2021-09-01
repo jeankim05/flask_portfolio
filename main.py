@@ -35,7 +35,7 @@ def stub():
 def greet():
     # submit button has been pushed
     if request.form:
-        name = request.form.get("name").strip()
+        name = request.form.get("name")
         if len(name) != 0:  # input field has content
             return render_template("greet.html", nickname=name)
     # starting and empty input default
