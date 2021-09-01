@@ -2,6 +2,9 @@
 Runtime link: https://portfolio.nighthawkcodingsociety.com/
 ### Idea
 
+
+Jean
+Jay
 Alex Do
 Starter code should be fun and practical.
 ### Visual thoughts
