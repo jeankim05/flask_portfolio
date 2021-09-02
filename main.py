@@ -61,7 +61,7 @@ def alex():
         if len(name) != 0:  # input field has content
             return render_template("alex.html", nickname=name)
     # starting and empty input default
-    return render_template("alex.html", nickname="whegohr")
+    return render_template("alex.html", nickname="World")
 
 # runs the application on the development server
 if __name__ == "__main__":
