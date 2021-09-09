@@ -31,6 +31,10 @@ def hawkers():
 def stub():
     return render_template("stub.html")
 
+@app.route('/binary/')
+def binary():
+    return render_template("binary.html")
+
 @app.route('/greet_jean', methods=['GET', 'POST'])
 def greet_jean():
     # submit button has been pushed
@@ -76,3 +80,5 @@ def allie_greet():
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
+
+
