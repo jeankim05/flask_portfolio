@@ -77,6 +77,7 @@ def allie_greet():
     # starting and empty input default
     return render_template("allie_greet.html", nickname="World")
 
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
