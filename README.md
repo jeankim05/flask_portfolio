@@ -3,7 +3,6 @@
 - Team Commits
 - Team Insight 
 
-
 ### Visual thoughts
 - Organize with Bootstrap menu 
 - Add some color and fun through VANTA Visuals (birds, halo, solar, net)
