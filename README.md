@@ -3,7 +3,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 
 ## Table of Contents
 - [Credits](#credits)
-- [Sprint 1 Week 0]()
+- [Sprint 1 Week 0](#sprint_1_week_0)
 - [Sprint 2 Weeks 1, 2]()
 - [Sprint 3 Week 3]()
 
