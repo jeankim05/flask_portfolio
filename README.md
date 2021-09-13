@@ -9,13 +9,13 @@ Jay Manjrekar | [@JayManjrekar](https://github.com/JayManjrekar) | [Tasks and Is
 Allie Xiao | [@xiaoa0](https://github.com/xiaoa0) | [Tasks and Issues](https://github.com/jeankim05/flask_portfolio/issues/assigned/xiaoa0) | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1) | [Commits](https://github.com/jeankim05/flask_portfolio/commits/main?author=xiaoa0) | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
 Alex Do | [@AlexD017](https://github.com/AlexD017) | [Tasks and Issues](https://github.com/jeankim05/flask_portfolio/issues/assigned/AlexD017) | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1) | [Commits](https://github.com/jeankim05/flask_portfolio/commits/main?author=AlexD017) | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
 
-### Sprint 1 Week 1
+### Sprint 1 Week 0
 
 Requirements | Evidence |
 ------------ | -------- |
 Create a Video to detail the Tech Talk topics 0 to 0.4. | [Video / Journal 0](https://youtu.be/k1-yGTv067w)
 
-### Sprint 2 Week 2
+### Sprint 2 Weeks 1, 2
 
 Requirements | Evidence |
 ----------- | ----------- |
