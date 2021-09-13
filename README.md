@@ -38,6 +38,5 @@ Jean Kim | ![image](https://user-images.githubusercontent.com/44128572/133026018
 Jay Manjrekar | ![image](https://user-images.githubusercontent.com/44128572/133026053-b46f4cfe-3020-4d26-b488-3a8b1b91dd48.png) |
 Allie Xiao | ![image](https://user-images.githubusercontent.com/44128572/133026040-e04009a9-6d38-42e8-a449-fc52529830b6.png) |
 Alex Do | ![image](https://user-images.githubusercontent.com/44128572/133026029-da9c8065-7140-4374-b3ee-30bb26add09a.png) |
-Review Binary | Binary Numbers: What is the function of binary numbers, and how and when are they used? They are very simple on/off switches that is the process of binary.
-*Full Binary Notes Are In Journals*|
+Review Binary | Binary Numbers: What is the function of binary numbers, and how and when are they used? They are very simple on/off switches that is the process of binary. *Full Binary Notes Are In Journals*|
 
