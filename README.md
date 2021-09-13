@@ -35,7 +35,7 @@ Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter); We have thi
 Style | Minimalistic (Light and Dark) We incorporated both styles and themes to see the contrast and the difference.|
 Color | We have similar backgrounds for everyone. There are vibrant colors and shapes that are give in the hawkers project background.|
 Jean Kim | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858620350910464/unknown.png) |
-Jay Manjrekar | ![image](https://user-images.githubusercontent.com/44128572/133026053-b46f4cfe-3020-4d26-b488-3a8b1b91dd48.png) |
+Jay Manjrekar | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858699656822805/Capture.PNG) |
 Allie Xiao | ![image](https://user-images.githubusercontent.com/44128572/133026040-e04009a9-6d38-42e8-a449-fc52529830b6.png) |
 Alex Do | ![image](https://user-images.githubusercontent.com/44128572/133026029-da9c8065-7140-4374-b3ee-30bb26add09a.png) |
 Review Binary | Binary Numbers: What is the function of binary numbers, and how and when are they used? They are very simple on/off switches that is the process of binary. *Full Binary Notes Are In Journals*|
