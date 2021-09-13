@@ -37,6 +37,6 @@ Color | We have similar backgrounds for everyone. There are vibrant colors and s
 Jean Kim | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858620350910464/unknown.png) |
 Jay Manjrekar | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858699656822805/Capture.PNG) |
 Allie Xiao | ![image](https://media.discordapp.net/attachments/879850648491937823/886859628867108884/Web_capture_12-9-2021_232312_127.0.0.1.jpeg) |
-Alex Do | ![image](https://user-images.githubusercontent.com/44128572/133026029-da9c8065-7140-4374-b3ee-30bb26add09a.png) |
+Alex Do | ![image](https://media.discordapp.net/attachments/879850648491937823/886861506413744138/Screenshot_2021-09-12_233010.png) |
 Review Binary | Binary Numbers: What is the function of binary numbers, and how and when are they used? They are very simple on/off switches that is the process of binary. *Full Binary Notes Are In Journals*|
 
