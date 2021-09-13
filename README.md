@@ -3,9 +3,6 @@
 - Team Commits
 - Team Insight 
 
-### Idea
-
-
 
 ### Visual thoughts
 - Organize with Bootstrap menu 
