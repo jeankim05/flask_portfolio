@@ -12,6 +12,7 @@ Alex Do | [@AlexD017](https://github.com/AlexD017) | [Tasks and Issues](https://
 ### Sprint 1 Week 1
 
 Requirements | Evidence |
+------------ | -------- |
 Create a Video to detail the Tech Talk topics 0 to 0.4. | [Video / Journal 0](https://youtu.be/k1-yGTv067w)
 
 ### Sprint 2 Week 2
