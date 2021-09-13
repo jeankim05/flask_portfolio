@@ -1,4 +1,5 @@
 # Team Project: Period 5 Children
+Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 
 ## Table of Contents
 - [Credits]()
