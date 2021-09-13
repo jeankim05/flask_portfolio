@@ -19,16 +19,17 @@
 </div>
 
 <h1>About Me</h1>
-<p>Hello! my name is Alex, a junior at Del Norte. I like listening to music, playing basketball, and video games with my friends. </p>
+<p>Hello! my name is Alex, a junior at Del Norte. I came from Seoul, Korea about 8 years ago. I like listening to any types of music, playing basketball, and video games with my friends. </p>
 {% endblock %}
 
-<!- This is turning off birds background from base.html -->
 
+
+<!- This is turning off birds background from base.html -->
 {% block background %}
 <script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-<script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.rings.min.js') }}"></script>
 <script>
-    VANTA.NET({
+    VANTA.RINGS({
         el: "body",
         mouseControls: true,
         touchControls: true,
