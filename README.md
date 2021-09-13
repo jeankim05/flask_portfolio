@@ -24,7 +24,7 @@ Technical Lead: Coordinate brain write session, after preliminary wire frames, m
 Navigators: Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | Vanta backgrounds are used. There are is an updated README.md and creation of ideas among team members. |
 Developers. Add the drop down options to the NavBar. We have the about us and the Mini lab. | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886855630059614218/unknown.png) |
 Developers. Integration of Greet like functionality into a mini-lab page | Added to each individual page ![image](https://cdn.discordapp.com/attachments/763438585168527441/886855996092334090/unknown.png) |
-Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0 embedded into portfolio ](https://www.youtube.com/playlist?list=PLT0pUL77e5RFi8ZPMgJNCi7Gp_5K-BZ0K) ![image](https://user-images.githubusercontent.com/44128572/133027005-909838fb-7c2e-4afa-8932-e0ac62d0d34c.png)|
+Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0](https://youtu.be/k1-yGTv067w) ![image](https://user-images.githubusercontent.com/44128572/133027005-909838fb-7c2e-4afa-8932-e0ac62d0d34c.png)|
 
 ### Sprint 3 Week 3
 
