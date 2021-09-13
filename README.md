@@ -4,8 +4,8 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 ## Table of Contents
 - [Credits](#credits)
 - [Sprint 1 Week 0](#sprint_1_week_0)
-- [Sprint 2 Weeks 1,2](#sprint_2_Weeks_1,2)
-- [Sprint 3 Week 3]()
+- [Sprint 2 Weeks 1,2](#sprint_2_weeks_1,2)
+- [Sprint 3 Week 3](#sprint_3_week_3)
 
 ### Credits
 - [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -18,13 +18,13 @@ Jay Manjrekar | [@JayManjrekar](https://github.com/JayManjrekar) | [Tasks and Is
 Allie Xiao | [@xiaoa0](https://github.com/xiaoa0) | [Tasks and Issues](https://github.com/jeankim05/flask_portfolio/issues/assigned/xiaoa0) | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1) | [Commits](https://github.com/jeankim05/flask_portfolio/commits/main?author=xiaoa0) | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
 Alex Do | [@AlexD017](https://github.com/AlexD017) | [Tasks and Issues](https://github.com/jeankim05/flask_portfolio/issues/assigned/AlexD017) | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1) | [Commits](https://github.com/jeankim05/flask_portfolio/commits/main?author=AlexD017) | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
 
-### Sprint 1 Week 0
+### Sprint_1_Week_0
 
 Requirements | Evidence |
 ------------ | -------- |
 Create a Video to detail the Tech Talk topics 0 to 0.4. | [Video / Journal 0](https://youtu.be/k1-yGTv067w)
 
-### Sprint 2 Weeks 1,2
+### Sprint_2_Weeks_1,2
 
 Requirements | Evidence |
 ----------- | ----------- |
@@ -36,7 +36,7 @@ Developers. Add the drop down options to the NavBar. We have the about us and th
 Developers. Integration of Greet like functionality into a mini-lab page | Added to each individual page ![image](https://cdn.discordapp.com/attachments/763438585168527441/886855996092334090/unknown.png) |
 Developers. Integration of Video Journal 0 into a mini-lab page | [Video Journal 0](https://youtu.be/k1-yGTv067w) ![image](https://cdn.discordapp.com/attachments/879850648491937823/886863190703632405/Screenshot_2021-09-12_233714.png)|
 
-### Sprint 3 Week 3
+### Sprint_3_Week_3
 
 Requirements | Evidence |
 ----------- | ----------- |
