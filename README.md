@@ -1,4 +1,4 @@
-# Team Project
+# Team Project: Period 5 Children
 - [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
 - [Team Insights Graphs](https://github.com/jeankim05/flask_portfolio/graphs/contributors)
 
