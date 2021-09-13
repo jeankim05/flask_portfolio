@@ -1,12 +1,12 @@
 # Team Project
+- Scrum Board
+- Team Commits
+- Team Insight 
 
 ### Idea
 
 
-Jean
-Jay
-Alex Do
-Starter code should be fun and practical.
+
 ### Visual thoughts
 - Organize with Bootstrap menu 
 - Add some color and fun through VANTA Visuals (birds, halo, solar, net)
