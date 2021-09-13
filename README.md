@@ -1,4 +1,12 @@
 # Team Project: Period 5 Children
+
+## Table of Contents
+- [Credits]()
+- [Sprint 1 Week 0]()
+- [Sprint 2 Weeks 1, 2]()
+- [Sprint 3 Week 3]()
+
+### Credits
 - [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
 - [Team Insights Graphs](https://github.com/jeankim05/flask_portfolio/graphs/contributors)
 
