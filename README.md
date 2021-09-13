@@ -4,7 +4,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 ## Table of Contents
 - [Credits](#credits)
 - [Sprint 1 Week 0](#sprint_1_week_0)
-- [Sprint 2 Weeks 1, 2]()
+- [Sprint 2 Weeks 1,2](#sprint_2_Weeks_1,2)
 - [Sprint 3 Week 3]()
 
 ### Credits
@@ -24,7 +24,7 @@ Requirements | Evidence |
 ------------ | -------- |
 Create a Video to detail the Tech Talk topics 0 to 0.4. | [Video / Journal 0](https://youtu.be/k1-yGTv067w)
 
-### Sprint 2 Weeks 1, 2
+### Sprint 2 Weeks 1,2
 
 Requirements | Evidence |
 ----------- | ----------- |
