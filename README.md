@@ -9,7 +9,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 3 Week 3](#sprint_3_week_3)
 
 ### Credits
-- [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
+- [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
 - [Team Insights Graphs](https://github.com/jeankim05/flask_portfolio/graphs/contributors)
 
 Contributor | GitHub | Tasks and Issues | Scrum Board | Commits | Links to Journal
