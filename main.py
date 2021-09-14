@@ -77,15 +77,15 @@ def allie_greet():
     # starting and empty input default
     return render_template("allie_greet.html", nickname="World")
 
-@app.route('/greet', methods=['GET', 'POST'])
-def greet():
+@app.route('/how_its_made', methods=['GET', 'POST'])
+def how_its_made():
     # submit button has been pushed
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("greet.html", nickname=name)
+            return render_template("how_its_made.html", nickname=name)
     # starting and empty input default
-    return render_template("greet.html", nickname="World")
+    return render_template("how_its_made.html", nickname="World")
 
 # runs the application on the development server
 if __name__ == "__main__":
