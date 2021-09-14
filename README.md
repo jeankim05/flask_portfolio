@@ -46,7 +46,7 @@ Requirements | Evidence |
 ----------- | ----------- |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter); We have this font, but we may also use other fonts. |
 Style | Minimalistic (Light and Dark) We incorporated both styles and themes to see the contrast and the difference.|
-Color | We have similar backgrounds for everyone. There are vibrant colors and shapes that are give in the hawkers project background.|
+Color | We have similar backgrounds for everyone. There are vibrant colors and shapes that are given in the hawkers project background. for the wireframes, we used a contrast of light, gray, and dark colors.|
 Jean Kim | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858620350910464/unknown.png) |
 Jay Manjrekar | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858699656822805/Capture.PNG) |
 Allie Xiao | ![image](https://media.discordapp.net/attachments/879850648491937823/886859628867108884/Web_capture_12-9-2021_232312_127.0.0.1.jpeg) |
