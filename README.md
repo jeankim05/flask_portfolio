@@ -53,3 +53,5 @@ Allie Xiao | ![image](https://media.discordapp.net/attachments/87985064849193782
 Alex Do | ![image](https://media.discordapp.net/attachments/879850648491937823/886861506413744138/Screenshot_2021-09-12_233010.png) |
 Review Binary | Binary Numbers: What is the function of binary numbers, and how and when are they used? They are very simple on/off switches that is the process of binary. *Full Binary Notes Are In Journals*|
 
+### Sprint_4_Week_4
+
