@@ -56,3 +56,6 @@ Review Binary | Binary Numbers: What is the function of binary numbers, and how 
 
 ### Sprint_4_Week_4
 
+Requirements | Evidence |
+----------- | ----------- |
+Scrum Master Planning Review | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
