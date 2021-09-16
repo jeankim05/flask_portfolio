@@ -87,6 +87,16 @@ def how_its_made():
     # starting and empty input default
     return render_template("how_its_made.html", nickname="World")
 
+@app.route('/jeanbinary', methods=['GET', 'POST'])
+def jeanbinary():
+    # submit button has been pushed
+    if request.form:
+        jean_bits = request.form.get("jean_bits")
+        if len(jean_bits) != 0:  # input field has content
+            return render_template("jeanbinary.html", jean_bits=int(jean_bits))
+    # starting and empty input default
+    return render_template("jeanbinary.html", jean_bits=8)
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
