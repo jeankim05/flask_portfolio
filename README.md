@@ -63,6 +63,6 @@ Scrum Master Planning Review | [Scrum Board](https://github.com/jeankim05/flask_
 Technical Requirements | Evidence |
 ---------------------- | ---------|
 Individual Technical (Jean): Created an input box for the binary code (with ASCII integration) and constructed a new file to have this; also added this page onto the mini labs dropdown | [Jean Binary Page](https://github.com/jeankim05/flask_portfolio/commit/cfd46d7294923e2fd5c3b81f3c4e6ae6e85829a6)
-Individual Technical (Jay): Had the same individual technical as Jean and Allie (input box for binary and the ASCII integration); also added link to the binary page from the about me page since it was not linked on the nav-bar | [Jay Binary Page](https://github.com/jeankim05/flask_portfolio/commit/c5e500a499059403f35d57d23b518c373ec25e90) [Link to Jay Binary Page from About Me Page](https://github.com/jeankim05/flask_portfolio/commit/5c7fc856205890c4e6a4bb14742662c3c49384cd)
+Individual Technical (Jay): Had the same individual technical as Jean and Allie (input box for binary and the ASCII integration); also added link to the binary page from the about me page since it was not linked on the nav-bar | [Jay Binary Page](https://github.com/jeankim05/flask_portfolio/commit/c5e500a499059403f35d57d23b518c373ec25e90) and [Link to Jay Binary Page from About Me Page](https://github.com/jeankim05/flask_portfolio/commit/5c7fc856205890c4e6a4bb14742662c3c49384cd)
 Individual Technical (Allie):|
 Individual Technical (Alex):|
