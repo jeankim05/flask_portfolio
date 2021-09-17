@@ -62,7 +62,7 @@ Scrum Master Planning Review | [Scrum Board](https://github.com/jeankim05/flask_
 
 Technical Requirements | Evidence |
 ---------------------- | ---------|
-Individual Technical (Jean): Created an input box for the binary code and constructed a new file to have this | [Jean Binary Page](https://github.com/jeankim05/flask_portfolio/commit/cfd46d7294923e2fd5c3b81f3c4e6ae6e85829a6)
+Individual Technical (Jean): Created an input box for the binary code (with ASCII integration) and constructed a new file to have this | [Jean Binary Page](https://github.com/jeankim05/flask_portfolio/commit/cfd46d7294923e2fd5c3b81f3c4e6ae6e85829a6)
 Individual Technical (Jay):|
 Individual Technical (Allie):|
 Individual Technical (Alex):|
