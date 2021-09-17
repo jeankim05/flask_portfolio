@@ -97,6 +97,16 @@ def jeanbinary():
     # starting and empty input default
     return render_template("jeanbinary.html", jean_bits=8)
 
+@app.route('/allie_binary', methods=['GET', 'POST'])
+def allie_binary():
+    # submit button has been pushed
+    if request.form:
+        allie_bits = request.form.get("allie_bits")
+        if len(allie_bits) != 0:  # input field has content
+            return render_template("allie_binary.html", allie_bits=int(allie_bits))
+    # starting and empty input default
+    return render_template("allie_binary.html", allie_bits=8)
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
