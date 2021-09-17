@@ -97,6 +97,16 @@ def jeanbinary():
     # starting and empty input default
     return render_template("jeanbinary.html", jean_bits=8)
 
+@app.route('/jaybinary', methods=['GET', 'POST'])
+def jaybinary():
+    # submit button has been pushed
+    if request.form:
+        jay_bits = request.form.get("jay_bits")
+        if len(jay_bits) != 0:  # input field has content
+            return render_template("jaybinary.html", jay_bits=int(jay_bits))
+    # starting and empty input default
+    return render_template("jaybinary.html", jay_bits=8)
+
 @app.route('/allie_binary', methods=['GET', 'POST'])
 def allie_binary():
     # submit button has been pushed
