@@ -59,4 +59,10 @@ Review Binary | Binary Numbers: What is the function of binary numbers, and how 
 Requirements | Evidence |
 ----------- | ----------- |
 Scrum Master Planning Review | [Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
-Individual Technical Requirements |
+
+Technical Requirements | Evidence |
+---------------------- | ---------|
+Individual Technical (Jean) | 
+Individual Technical (Jay) |
+Individual Technical (Allie) |
+Individual Technical (Alex) |
