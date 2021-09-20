@@ -69,7 +69,7 @@ Individual Technical (Allie): Had the same individual technical as Jean and Jay 
 Individual Technical (Alex): Worked on the Template Design Doc, exposed to basic CSS and Design, specifically changed our project home page to fit our sports theme | [Template Design](https://github.com/jeankim05/flask_portfolio/commit/14472738181147b99c5f5da954cb6aa93944031f)
 Team Technical: Quick 2 Minute Video going over tasks for the week, tangibles, commits, journal, scrum board, and README | [Video](https://www.youtube.com/watch?v=noBhC5KHNHU&list=PLr8BhChjy1aQJWNDIfHnLxojAU-sdcdwz&index=3)
 
-### Sprint_5_Week 5
+### Sprint_5_Week_5
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
