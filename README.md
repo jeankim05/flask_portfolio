@@ -8,6 +8,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 2 Weeks 1,2](#sprint_2_weeks_12)
 - [Sprint 3 Week 3](#sprint_3_week_3)
 - [Sprint 4 Week 4](#sprint_4_week_4)
+- [Sprint 5 Week 5](#sprint_5_week_5)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -48,7 +49,7 @@ Requirements | Evidence |
 Font | [Inter](https://fonts.google.com/specimen/Inter?query=Inter); We have this font, but we may also use other fonts. |
 Style | Minimalistic (Light and Dark) We incorporated both styles and themes to see the contrast and the difference.|
 Color | We have similar backgrounds for everyone. There are vibrant colors and shapes that are given in the hawkers project background. for the wireframes, we used a contrast of light, gray, and dark colors.|
-Jean Kim | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858620350910464/unknown.png) |
+Jean Kim | ![Link](https://camo.githubusercontent.com/1aadae38e263c9296a9bd2f83310d8772d671698b8293042c77a1cf57742e015/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3736333433383538353136383532373434312f3838363835383632303335303931303436342f756e6b6e6f776e2e706e67) |
 Jay Manjrekar | ![image](https://cdn.discordapp.com/attachments/763438585168527441/886858699656822805/Capture.PNG) |
 Allie Xiao | ![image](https://media.discordapp.net/attachments/879850648491937823/886859628867108884/Web_capture_12-9-2021_232312_127.0.0.1.jpeg) |
 Alex Do | ![image](https://media.discordapp.net/attachments/879850648491937823/886861506413744138/Screenshot_2021-09-12_233010.png) |
@@ -65,4 +66,14 @@ Technical Requirements | Evidence |
 Individual Technical (Jean): Created an input box for the binary code (with ASCII integration) and constructed a new file to have this; also added this page onto the mini labs dropdown | [Jean Binary Page](https://github.com/jeankim05/flask_portfolio/commit/cfd46d7294923e2fd5c3b81f3c4e6ae6e85829a6)
 Individual Technical (Jay): Had the same individual technical as Jean and Allie (input box for binary and the ASCII integration); also added link to the binary page from the about me page since it was not linked on the nav-bar | [Jay Binary Page](https://github.com/jeankim05/flask_portfolio/commit/c5e500a499059403f35d57d23b518c373ec25e90) and [Link to Jay Binary Page from About Me Page](https://github.com/jeankim05/flask_portfolio/commit/5c7fc856205890c4e6a4bb14742662c3c49384cd)
 Individual Technical (Allie): Had the same individual technical as Jean and Jay (input box for binary and the ASCII integration); also reorganized the navbar and the current dropdown menus | [Allie Binary Page](https://github.com/jeankim05/flask_portfolio/commit/718f375cfaeb2d31cb163f84a99fc410a85e0e1a) and [Commit Changes to the navbar and dropdown menu](https://github.com/jeankim05/flask_portfolio/commit/9d8238d69c2b3a12df643ca86d9899a18b634290)
-Individual Technical (Alex): Worked on the Template Design Doc, exposed to basic CSS and Design, specifically changed our project home page to fit our sports theme | 
+Individual Technical (Alex): Worked on the Template Design Doc, exposed to basic CSS and Design, specifically changed our project home page to fit our sports theme | [Template Design](https://github.com/jeankim05/flask_portfolio/commit/14472738181147b99c5f5da954cb6aa93944031f)
+Team Technical: Quick 2 Minute Video going over tasks for the week, tangibles, commits, journal, scrum board, and README | [Video](https://www.youtube.com/watch?v=noBhC5KHNHU&list=PLr8BhChjy1aQJWNDIfHnLxojAU-sdcdwz&index=3)
+
+### Sprint_5_Week_5
+
+Name | Requirements | Evidence / Tangibles | Grade |
+---- | ------------ | -------------------- | ----- |
+Jean | 
+Jay |
+Allie |
+Alex |
