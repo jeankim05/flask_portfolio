@@ -70,7 +70,7 @@ Team Technical: Quick 2 Minute Video going over tasks for the week, tangibles, c
 
 ### Sprint_5_Week 5
 
-Name | Requirements | Evidence / Tangibles | Grade
+Name | Requirements | Evidence / Tangibles | Grade |
 Jean | 
 Jay |
 Allie |
