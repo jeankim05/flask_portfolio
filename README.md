@@ -67,3 +67,11 @@ Individual Technical (Jay): Had the same individual technical as Jean and Allie 
 Individual Technical (Allie): Had the same individual technical as Jean and Jay (input box for binary and the ASCII integration); also reorganized the navbar and the current dropdown menus | [Allie Binary Page](https://github.com/jeankim05/flask_portfolio/commit/718f375cfaeb2d31cb163f84a99fc410a85e0e1a) and [Commit Changes to the navbar and dropdown menu](https://github.com/jeankim05/flask_portfolio/commit/9d8238d69c2b3a12df643ca86d9899a18b634290)
 Individual Technical (Alex): Worked on the Template Design Doc, exposed to basic CSS and Design, specifically changed our project home page to fit our sports theme | [Template Design](https://github.com/jeankim05/flask_portfolio/commit/14472738181147b99c5f5da954cb6aa93944031f)
 Team Technical: Quick 2 Minute Video going over tasks for the week, tangibles, commits, journal, scrum board, and README | [Video](https://www.youtube.com/watch?v=noBhC5KHNHU&list=PLr8BhChjy1aQJWNDIfHnLxojAU-sdcdwz&index=3)
+
+### Sprint_5_Week 5
+
+Name | Requirements | Evidence / Tangibles | Grade
+Jean | 
+Jay |
+Allie |
+Alex |
