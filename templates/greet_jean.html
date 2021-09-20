@@ -20,16 +20,28 @@
 
     <h1>About Jean Kim</h1>
 <p>Hello, my name is Jean, a junior at Del Norte and I am 16 years old. In my spare time, I enjoy listening to music, playing basketball with friends, or going mountain biking. In school, my favorite subject is biology, but I also enjoy programming. Although I am relatively new to computer science, I like to learn new codes.</p>
-{% endblock %}
 
+<html>
+
+<body>
+
+<a href="http://127.0.0.1:5000/jeanbinary">
+    <input type="Submit" value="Jean Binary Page"/>
+</a>
+
+</body>
+
+</html>
+
+{% endblock %}
 
 <!- This is turning off birds background from base.html -->
 
     {% block background %}
         <script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='vanta.birds.min.js') }}"></script>
         <script>
-            VANTA.NET({
+            VANTA.BIRDS({
                 el: "body",
                 mouseControls: true,
                 touchControls: true,
