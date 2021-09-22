@@ -73,7 +73,7 @@ Team Technical: Quick 2 Minute Video going over tasks for the week, tangibles, c
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
-Jean | 
+Jean | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) | 3/3
 Jay |
 Allie |
 Alex |
