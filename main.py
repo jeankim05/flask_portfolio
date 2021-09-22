@@ -127,6 +127,16 @@ def alexbinary():
     # starting and empty input default
     return render_template("alexbinary.html", alexbits=8)
 
+@app.route('/rgb/')
+def rgb():
+    rawList = image_data()
+    colorList = []
+    grayList = []
+    for img in rawList:
+        colorList.append(img['base64'])
+        grayList.append(img['base64_GRAY'])
+    return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
