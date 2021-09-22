@@ -117,6 +117,16 @@ def allie_binary():
     # starting and empty input default
     return render_template("allie_binary.html", allie_bits=8)
 
+@app.route('/alexbinary', methods=['GET', 'POST'])
+def alexbinary():
+    # submit button has been pushed
+    if request.form:
+        alexbits = request.form.get("alexbits")
+        if len(alexbits) != 0:  # input field has content
+            return render_template("alexbinary.html", alexbits=int(alexbits))
+    # starting and empty input default
+    return render_template("alexbinary.html", alexbits=8)
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
