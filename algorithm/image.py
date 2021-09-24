@@ -17,10 +17,10 @@ def image_formatter(img, img_type):
 
 
 # color_data prepares a series of images for data analysis
-def image_data(path="static/img/", img_list=None):  # path of static images is defaulted
+def image_data(path="C:/Users/jeane/IdeaProjects/flask_portfolio_shared/static/assets/", img_list=None):  # path of static images is defaulted
     if img_list is None:  # color_dict is defined with defaults
         img_list = [
-            {'source': "Dog", 'label': "Funny Dog", 'file': "dog.jpg"},
+            {'source': "Nighthawk", 'label': "Cool Nighthawk", 'file': "nighthawk.jpg"},
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
