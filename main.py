@@ -1,6 +1,7 @@
 # import "packages" from flask
 from flask import Flask, render_template, request
 from algorithm.image import image_data
+from pathlib import Path
 # create a Flask instance
 app = Flask(__name__)
 
@@ -35,7 +36,7 @@ def stub():
 def binary():
     return render_template("binary.html")
 
-@app.route('/greet_jean', methods=['GET', 'POST'])
+@app.route('/greet_jean/', methods=['GET', 'POST'])
 def greet_jean():
     # submit button has been pushed
     if request.form:
@@ -47,7 +48,7 @@ def greet_jean():
 
 
 
-@app.route('/jay', methods=['GET', 'POST'])
+@app.route('/jay/', methods=['GET', 'POST'])
 def jay():
     # submit button has been pushed
     if request.form:
@@ -57,7 +58,7 @@ def jay():
     # starting and empty input default
     return render_template("jay.html", nickname="World")
 
-@app.route('/alex', methods=['GET', 'POST'])
+@app.route('/alex/', methods=['GET', 'POST'])
 def alex():
     # submit button has been pushed
     if request.form:
@@ -67,7 +68,7 @@ def alex():
     # starting and empty input default
     return render_template("alex.html", nickname="World")
 
-@app.route('/allie_greet', methods=['GET', 'POST'])
+@app.route('/allie_greet/', methods=['GET', 'POST'])
 def allie_greet():
     # submit button has been pushed
     if request.form:
@@ -77,7 +78,7 @@ def allie_greet():
     # starting and empty input default
     return render_template("allie_greet.html", nickname="World")
 
-@app.route('/how_its_made', methods=['GET', 'POST'])
+@app.route('/how_its_made/', methods=['GET', 'POST'])
 def how_its_made():
     # submit button has been pushed
     if request.form:
@@ -87,7 +88,7 @@ def how_its_made():
     # starting and empty input default
     return render_template("how_its_made.html", nickname="World")
 
-@app.route('/jeanbinary', methods=['GET', 'POST'])
+@app.route('/jeanbinary/', methods=['GET', 'POST'])
 def jeanbinary():
     # submit button has been pushed
     if request.form:
@@ -97,7 +98,7 @@ def jeanbinary():
     # starting and empty input default
     return render_template("jeanbinary.html", jean_bits=8)
 
-@app.route('/jaybinary', methods=['GET', 'POST'])
+@app.route('/jaybinary/', methods=['GET', 'POST'])
 def jaybinary():
     # submit button has been pushed
     if request.form:
@@ -107,7 +108,7 @@ def jaybinary():
     # starting and empty input default
     return render_template("jaybinary.html", jay_bits=8)
 
-@app.route('/allie_binary', methods=['GET', 'POST'])
+@app.route('/allie_binary/', methods=['GET', 'POST'])
 def allie_binary():
     # submit button has been pushed
     if request.form:
@@ -117,7 +118,7 @@ def allie_binary():
     # starting and empty input default
     return render_template("allie_binary.html", allie_bits=8)
 
-@app.route('/alexbinary', methods=['GET', 'POST'])
+@app.route('/alexbinary/', methods=['GET', 'POST'])
 def alexbinary():
     # submit button has been pushed
     if request.form:
@@ -127,14 +128,17 @@ def alexbinary():
     # starting and empty input default
     return render_template("alexbinary.html", alexbits=8)
 
-@app.route('/rgb/')
+@app.route('/rgb/', methods=["GET", "POST"])
 def rgb():
-    rawList = image_data()
+    path = Path(app.root_path) / "static" / "img"
+    rawList = image_data(path)
     colorList = []
     grayList = []
     for img in rawList:
         colorList.append(img['base64'])
         grayList.append(img['base64_GRAY'])
+    print(path)
+    #return render_template('rgb.html', images=image_data(path))
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
 # runs the application on the development server
