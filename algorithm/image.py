@@ -22,6 +22,7 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
     if img_list is None:  # color_dict is defined with defaults
         img_list = [
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
+            {'source': "Nighthawk", 'label': "Nighthawk Picture", 'file': "nighthawk.jpg"},
             {'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
             {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
             {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
