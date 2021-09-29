@@ -9,6 +9,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 3 Week 3](#sprint_3_week_3)
 - [Sprint 4 Week 4](#sprint_4_week_4)
 - [Sprint 5 Week 5](#sprint_5_week_5)
+- [Sprint 6 Week 6](#sprint_6_week_6)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
