@@ -83,7 +83,7 @@ Alex | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz,
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
-Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
-Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
-Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
-Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
+Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, RGB Set up, changing images to gray scale
+Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Big O Notation integration to RGB values
+Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Manipulating Images for RGB Pictures
+Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Texts and messages on top of image for RGB page
