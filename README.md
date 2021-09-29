@@ -83,7 +83,7 @@ Alex | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz,
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
-Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, RGB Set up, changing images to gray scale
-Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Big O Notation integration to RGB values
-Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Manipulating Images for RGB Pictures
-Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Texts and messages on top of image for RGB page
+Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, RGB Set up, changing images to gray scale | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [RGB Commit](https://github.com/jeankim05/flask_portfolio/commit/3572c5b690b1b6f832a2556fc2e3139ca412adda) // [LInk to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/33)
+Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Big O Notation integration to RGB values | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) //
+Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Manipulating Images for RGB Pictures | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) //
+Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Texts and messages on top of image for RGB page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) //
