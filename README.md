@@ -9,6 +9,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 3 Week 3](#sprint_3_week_3)
 - [Sprint 4 Week 4](#sprint_4_week_4)
 - [Sprint 5 Week 5](#sprint_5_week_5)
+- [Sprint 6 Week 6](#sprint_6_week_6)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -77,3 +78,12 @@ Jean | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz,
 Jay | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/31) | 3/3
 Allie | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/32) | 3/3
 Alex | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/32) | 3/3
+
+### Sprint_6_Week_6
+
+Name | Requirements | Evidence / Tangibles | Grade |
+---- | ------------ | -------------------- | ----- |
+Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, RGB Set up, changing images to gray scale
+Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Big O Notation integration to RGB values
+Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Manipulating Images for RGB Pictures
+Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Texts and messages on top of image for RGB page
