@@ -77,3 +77,12 @@ Jean | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz,
 Jay | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/31) | 3/3
 Allie | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/32) | 3/3
 Alex | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz, Journal Notes on 3.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/32) | 3/3
+
+### Sprint_6_Week_6
+
+Name | Requirements | Evidence / Tangibles | Grade |
+---- | ------------ | -------------------- | ----- |
+Jean|
+Jay|
+Allie|
+Alex|
