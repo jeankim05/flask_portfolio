@@ -83,7 +83,7 @@ Alex | Journal Notes on OO's and TO's Roles, Journal Notes on 3.1 Work and Quiz,
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
-Jean|
-Jay|
-Allie|
-Alex|
+Jean| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
+Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
+Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
+Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz
