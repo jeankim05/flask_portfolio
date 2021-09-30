@@ -46,8 +46,6 @@ def greet_jean():
     # starting and empty input default
     return render_template("greet_jean.html", nickname="World")
 
-
-
 @app.route('/jay/', methods=['GET', 'POST'])
 def jay():
     # submit button has been pushed
@@ -138,7 +136,6 @@ def rgb():
         colorList.append(img['base64'])
         grayList.append(img['base64_GRAY'])
     print(path)
-    #return render_template('rgb.html', images=image_data(path))
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
 # runs the application on the development server
