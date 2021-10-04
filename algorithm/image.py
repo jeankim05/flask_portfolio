@@ -4,7 +4,6 @@ import base64
 from io import BytesIO
 from pathlib import Path  # https://medium.com/@ageitgey/python-3-quick-tip-the-easy-way-to-deal-with-file-paths-on-windows-mac-and-linux-11a072b58d5f
 
-
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:
@@ -59,6 +58,11 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
             # binary conversions
             bin_value = bin(pixel[0])[2:].zfill(8) + " " + bin(pixel[1])[2:].zfill(8) + " " + bin(pixel[2])[2:].zfill(8)
             img_dict['binary_array'].append(bin_value)
+
+        img_dict['flipped'] = img_reference.transpose(Image.ROTATE_90)
+        flippedImage = img_reference.transpose(Image.ROTATE_90)
+        img_dict['base64_flipped'] = image_formatter(flippedImage,img_dict['format'])
+
         # create gray scale of image, ref: https://www.geeksforgeeks.org/convert-a-numpy-array-to-an-image/
         img_dict['gray_data'] = []
         for pixel in img_dict['data']:
