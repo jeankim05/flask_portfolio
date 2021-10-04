@@ -10,7 +10,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 4 Week 4](#sprint_4_week_4)
 - [Sprint 5 Week 5](#sprint_5_week_5)
 - [Sprint 6 Week 6](#sprint_6_week_6)
-- [Sprint 7 Week 7](#sprint_7_week_7)
+- [Sprint 7 Week 7](#sprint_7,8_week_7)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -89,7 +89,7 @@ Jay| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Big
 Allie| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Manipulating Images for RGB Pictures | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Image Manipulation commit](https://github.com/jeankim05/flask_portfolio/commit/9d363fded8945728417d2345c40824a74522ff9e) // [Link to ticket on Scrum board](https://github.com/jeankim05/flask_portfolio/issues/37)
 Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Texts and messages on top of image for RGB page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Texts on Image commit](https://github.com/jeankim05/flask_portfolio/commit/0bfccbcdeaf7c42dc725c81b30a8a19509f6c7fa) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/36)
 
-### Sprint_7_Week_7
+### Sprint_7,8_Week_7
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
