@@ -23,6 +23,11 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
         img_list = [
             {'source': "Nighthawk", 'label': "Nighthawk Picture", 'file': "nighthawk.jpg"},
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
+            {'source': "Black", 'label': "Black square", 'file': "black-square-16.png"},
+            {'source': "Red", 'label': "Red square", 'file': "red-square-16.png"},
+            {'source': "Green", 'label': "Green square", 'file': "green-square-16.png"},
+            {'source': "Blue", 'label': "Blue square", 'file': "blue-square-16.jpg"},
+            {'source': "White", 'label': "White square", 'file': "white-square-16.png"},
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
