@@ -49,6 +49,7 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
         img_dict['data'] = numpy.array(img_data)
         img_dict['hex_array'] = []
         img_dict['binary_array'] = []
+        img_dict['gray_data'] = []
         # 'data' is a list of RGB data, the list is traversed and hex and binary lists are calculated and formatted
         for pixel in img_dict['data']:
             # hexadecimal conversions
@@ -59,18 +60,16 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
             bin_value = bin(pixel[0])[2:].zfill(8) + " " + bin(pixel[1])[2:].zfill(8) + " " + bin(pixel[2])[2:].zfill(8)
             img_dict['binary_array'].append(bin_value)
 
-        img_dict['flipped'] = img_reference.transpose(Image.ROTATE_90)
-        flippedImage = img_reference.transpose(Image.ROTATE_90)
-        img_dict['base64_flipped'] = image_formatter(flippedImage,img_dict['format'])
-
         # create gray scale of image, ref: https://www.geeksforgeeks.org/convert-a-numpy-array-to-an-image/
-        img_dict['gray_data'] = []
-        for pixel in img_dict['data']:
+
             average = (int(pixel[0]) + pixel[1] + pixel[2]) // 3  # integer division
             if len(pixel) > 3:
                 img_dict['gray_data'].append((average, average, average, pixel[3]))
             else:
                 img_dict['gray_data'].append((average, average, average))
+        img_dict['flipped'] = img_reference.transpose(Image.ROTATE_90)
+        flippedImage = img_reference.transpose(Image.ROTATE_90)
+        img_dict['base64_flipped'] = image_formatter(flippedImage,img_dict['format'])
         img_reference.putdata(img_dict['gray_data'])
         img_dict['base64_GRAY'] = image_formatter(img_reference, img_dict['format'])
     return img_list  # list is returned with all the attributes for each image dictionary
