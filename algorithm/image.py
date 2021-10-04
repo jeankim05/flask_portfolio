@@ -23,11 +23,6 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
         img_list = [
             {'source': "Nighthawk", 'label': "Nighthawk Picture", 'file': "nighthawk.jpg"},
             {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
-            {'source': "iconsdb.com", 'label': "Black square", 'file': "black-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Red square", 'file': "red-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Green square", 'file': "green-square-16.png"},
-            {'source': "iconsdb.com", 'label': "Blue square", 'file': "blue-square-16.jpg"},
-            {'source': "iconsdb.com", 'label': "White square", 'file': "white-square-16.png"},
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
@@ -40,6 +35,10 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
         img_dict['format'] = img_reference.format
         img_dict['mode'] = img_reference.mode
         img_dict['size'] = img_reference.size
+
+        draw = ImageDraw.Draw(img_reference)
+        draw.text((7, 5), "Hello!".format(*img_dict['size']), fill="black")  # draw in image
+
         # Conversion of original Image to Base64, a string format that serves HTML nicely
         img_dict['base64'] = image_formatter(img_reference, img_dict['format'])
         # Numpy is used to allow easy access to data of image, python list
@@ -70,7 +69,7 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
 
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
-    local_path = Path("../starter/static/img/")
+    local_path = Path("static/img/")
     img_test = [
         {'source': "Peter Carolin", 'label': "Lassen Volcano", 'file': "lassen-volcano-256.jpg"},
     ]
@@ -100,6 +99,6 @@ if __name__ == "__main__":
         filename = local_path / row['file']
         image_ref = Image.open(filename)
         draw = ImageDraw.Draw(image_ref)
-        draw.text((0, 0), "Size is {0} X {1}".format(*row['size']))  # draw in image
+        draw.text((7, 5), "Hello!".format(*row['size']))  # draw in image
         image_ref.show()
 print()
