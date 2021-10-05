@@ -93,7 +93,7 @@ Alex| Journal Notes on 3.3 Work and Quiz, Journal Notes on 3.4 Work and Quiz, Te
 
 Name | Requirements | Evidence / Tangibles | Grade |
 ---- | ------------ | -------------------- | ----- |
-Jean | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz |
-Jay | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz |
-Allie | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz |
-Alex | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz |
+Jean | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Jay | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Allie | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Alex | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
