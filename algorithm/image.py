@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
 import numpy
 import base64
 from io import BytesIO
@@ -67,9 +67,6 @@ def image_data(path=Path("static/img/"), img_list=None):  # path of static image
                 img_dict['gray_data'].append((average, average, average, pixel[3]))
             else:
                 img_dict['gray_data'].append((average, average, average))
-        img_dict['flipped'] = img_reference.transpose(Image.ROTATE_90)
-        flippedImage = img_reference.transpose(Image.ROTATE_90)
-        img_dict['base64_flipped'] = image_formatter(flippedImage,img_dict['format'])
         img_reference.putdata(img_dict['gray_data'])
         img_dict['base64_GRAY'] = image_formatter(img_reference, img_dict['format'])
     return img_list  # list is returned with all the attributes for each image dictionary
