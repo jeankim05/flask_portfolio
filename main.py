@@ -144,6 +144,16 @@ def rgb():
     print(path)
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
+@app.route('/colorcode/', methods=['GET', 'POST'])
+def colorcode():
+    # submit button has been pushed
+    if request.form:
+        jean_bits_3 = request.form.get("jean_bits_3")
+        if len(jean_bits_3) != 0:  # input field has content
+            return render_template("colorcode.html", jean_bits_3=int(jean_bits_3))
+    # starting and empty input default
+    return render_template("colorcode.html", jean_bits_3=8)
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
