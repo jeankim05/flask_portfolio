@@ -37,7 +37,7 @@
         Color_green_2 = spaceFill(document.getElementById('hexadecimal_2').innerHTML,2)
         Color_blue_3 = spaceFill(document.getElementById('hexadecimal_3').innerHTML,2)
 
-        document.body.style.background = "#"+R_red_1+G_green_2+B_blue_3;
+        document.body.style.background = "#"+Color_red_1+Color_green_2+Color_blue_3;
         document.getElementById('hexlabel').innerHTML = "Hex Value #"+Color_red_1+Color_green_2+Color_blue_3;
     }
     // setter for DOM values
@@ -131,7 +131,7 @@
 {% endblock %}
 
 {% block body %}
-<h1 style="color: darkred" class="text-center">Color Code Mini Lab</h1>
+<h1 style="color: darkred" class="text-center">Color Codes Mini Lab</h1>
 <form action="/colorcode/" id="jean_bits_3" method="POST">
     <!--  <label for="bits"></label>-->
     <input placeholder="Enter Number of Bits!" name="jean_bits_3" id="bits" />
