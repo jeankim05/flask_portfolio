@@ -98,4 +98,4 @@ Jay | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz, Lo
 Allie | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz, Signed Addition Lab | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) //[Temporary Tangibles](https://docs.google.com/document/d/1SKdRVmI30qml2dGbDfKw4EPLZg8FB5dmocVUNb5c_e4/edit)
 Alex | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz, Unsigned Addition Lab | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Unsigned Addition and Substraction](https://github.com/jeankim05/flask_portfolio/issues/44) // [Temporary Tangibles](https://docs.google.com/document/d/1SKdRVmI30qml2dGbDfKw4EPLZg8FB5dmocVUNb5c_e4/edit)
 
-Scrum Team Video | 2 Minute Video on Sprint 7,8 Week 7 | [Video Link](https://www.youtube.com/watch?v=srNQ56kj_Lg)
+Scrum Team Video (2 Minute Video on Sprint 7,8 Week 7): [Video Link](https://www.youtube.com/watch?v=srNQ56kj_Lg)
