@@ -103,9 +103,9 @@ Scrum Team Video (2 Minute Video on Sprint 7,8 Week 7): [Video Link](https://www
 
 ### Sprint_7,8_Week_8
 
-Name | Requirements | Evidence / Tangibles | Grade (Given by Crossover Team Review) |
+Name | Requirements | Evidence / Tangibles | Grade (Given by Crossover Team and Teacher Review) |
 ---- | ------------ | -------------------- | ----- |
 Jean | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) 
-Jay | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz, Logic Gates Mini Lab | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Temporary Tangibles](https://docs.google.com/document/d/1SKdRVmI30qml2dGbDfKw4EPLZg8FB5dmocVUNb5c_e4/edit) | 7/8
-Allie | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz, Signed Addition Lab | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) //[Temporary Tangibles](https://docs.google.com/document/d/1SKdRVmI30qml2dGbDfKw4EPLZg8FB5dmocVUNb5c_e4/edit) | 7/8
-Alex | Journal Notes on 3.5 Work and Quiz, Journal Notes on 3.6 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Jay | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Allie | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz| [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Alex | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
