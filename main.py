@@ -32,15 +32,9 @@ def hawkers():
 def stub():
     return render_template("stub.html")
 
-@app.route('/binary/', methods=['GET', 'POST'])
+@app.route('/binary/')
 def binary():
-    # submit button has been pushed
-    if request.form:
-        jean_bits_2 = request.form.get("jean_bits_2")
-        if len(jean_bits_2) != 0:  # input field has content
-            return render_template("binary.html", jean_bits_2=int(jean_bits_2))
-    # starting and empty input default
-    return render_template("binary.html", jean_bits_2=8)
+    return render_template("binary.html")
 
 @app.route('/greet_jean/', methods=['GET', 'POST'])
 def greet_jean():
@@ -143,6 +137,10 @@ def rgb():
         grayList.append(img['base64_GRAY'])
     print(path)
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
+
+@app.route('/unsigned_addition/', methods=["GET", "POST"])
+def unsigned_addition():
+    return render_template("unsigned_addition.html", path=Path, BITS=8)
 
 @app.route('/colorcode/', methods=['GET', 'POST'])
 def colorcode():
