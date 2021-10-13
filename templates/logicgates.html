@@ -1,0 +1,112 @@
+<!-- Extending the project layout, as this file will do minor customizations -->
+{% extends "layouts/base.html" %}
+{% set project = "Logic Gate" %}
+
+{% block body %}
+<!-- Check boxes for A and B -->
+<input type="checkbox" id="input1" name="input1" value="A" />
+<label for="input1"> A </label><br />
+<input type="checkbox" id="input2" name="input2" value="B" />
+<label for="input2"> B </label><br />
+
+<style>
+    .gateimage {
+        height: 100px;
+        width: 300px;
+    }
+</style>
+<script>
+    console.log(document.getElementById("input1").checked);
+    function getValues() {
+        logic1 = document.getElementById("input1").checked;
+        logic2 = document.getElementById("input2").checked;
+        // And Results
+        and = logic1 && logic2;
+        // Nand results
+        nand = !and;
+        // Or results
+        or = logic1 || logic2;
+        // Nor results
+        nor = !or;
+        // Xor results
+        xor = (logic1 && !logic2) || (!logic1 && logic2);
+        // Not results
+        not = !logic1;
+
+        // adding value to textbox
+        document.getElementById("and_gate_text").value = and;
+        document.getElementById("nand_gate_text").value = nand;
+        document.getElementById("or_gate_text").value = or;
+        document.getElementById("nor_gate_text").value = nor;
+        document.getElementById("xor_gate_text").value = xor;
+        document.getElementById("not_gate_text").value = not;
+    }
+</script>
+
+<input type="button" value="Submit" onclick="getValues()" />
+
+<table style="width: 100%; height: 100%" border="1">
+    <tr>
+        <th colspan="3">
+            <h3><br />Logic Gates</h3>
+        </th>
+    </tr>
+    <th>Logic Gate</th>
+    <th>Gate Image</th>
+    <th>Result</th>
+    <tr>
+        <td>And Gate</td>
+        <td>
+            <img
+                    id="and_gate"
+                    src="/static/img/andgate.png"
+                    class="gateimage"
+            />
+        </td>
+        <td><textarea id="and_gate_text"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>Nand Gate</td>
+        <td>
+            <img
+                    id="nand_gate"
+                    src="/static/img/nandgate.png"
+                    class="gateimage"
+            />
+        </td>
+        <td><textarea id="nand_gate_text"></textarea></td>
+    </tr>
+
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Logic Gates</th>
+        </tr>
+        <tr>
+            <td><img src="/static/assets/andgate.png" width="256" height="Auto"></td>
+            <td><textarea id="and_gate_text"></textarea></td>
+        </tr>
+        <tr>
+            <td><img src="/static/assets/nanggate.png" width="256" height="Auto"></td>
+            <td><textarea id="nand_gate_text"></textarea></td>
+        </tr>
+        <tr>
+            <td><img src="/static/assets/orgate.png" width="256" height="Auto"></td>
+            <td><textarea id="or_gate_text"></textarea></td>
+        </tr>
+        <tr>
+            <td><img src="/static/assets/norgate.png" width="256" height="Auto"></td>
+            <td><textarea id="nor_gate_text"></textarea></td>
+        </tr>
+        <tr>
+            <td><img src="/static/assets/xorgate.png" width="256" height="Auto"></td>
+            <td><textarea id="xor_gate_text"></textarea></td>
+        </tr>
+        <tr>
+
+        </tr>
+
+    </table>
+
+    {% endblock %}

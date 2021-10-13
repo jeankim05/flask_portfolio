@@ -152,6 +152,10 @@ def colorcode():
     # starting and empty input default
     return render_template("colorcode.html", jean_bits_3=8)
 
+@app.route('/logicgates/')
+def logicgates():
+    return render_template("logicgates.html")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
