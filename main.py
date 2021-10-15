@@ -3,6 +3,7 @@ from flask import Flask, render_template, request
 import requests
 from algorithm.image import image_data
 from pathlib import Path
+
 # create a Flask instance
 app = Flask(__name__)
 
@@ -33,6 +34,7 @@ def hawkers():
 def stub():
     return render_template("stub.html")
 
+
 @app.route('/binary/', methods=['GET', 'POST'])
 def binary():
     # submit button has been pushed
@@ -42,6 +44,7 @@ def binary():
             return render_template("binary.html", jean_bits_2=int(jean_bits_2))
     # starting and empty input default
     return render_template("binary.html", jean_bits_2=8)
+
 
 @app.route('/greet_jean/', methods=['GET', 'POST'])
 def greet_jean():
@@ -53,6 +56,7 @@ def greet_jean():
     # starting and empty input default
     return render_template("greet_jean.html", nickname="World")
 
+
 @app.route('/jay/', methods=['GET', 'POST'])
 def jay():
     # submit button has been pushed
@@ -62,6 +66,7 @@ def jay():
             return render_template("jay.html", nickname=name)
     # starting and empty input default
     return render_template("jay.html", nickname="World")
+
 
 @app.route('/alex/', methods=['GET', 'POST'])
 def alex():
@@ -73,6 +78,7 @@ def alex():
     # starting and empty input default
     return render_template("alex.html", nickname="World")
 
+
 @app.route('/allie_greet/', methods=['GET', 'POST'])
 def allie_greet():
     # submit button has been pushed
@@ -82,6 +88,7 @@ def allie_greet():
             return render_template("allie_greet.html", nickname=name)
     # starting and empty input default
     return render_template("allie_greet.html", nickname="World")
+
 
 @app.route('/how_its_made/', methods=['GET', 'POST'])
 def how_its_made():
@@ -93,6 +100,7 @@ def how_its_made():
     # starting and empty input default
     return render_template("how_its_made.html", nickname="World")
 
+
 @app.route('/jeanbinary/', methods=['GET', 'POST'])
 def jeanbinary():
     # submit button has been pushed
@@ -102,6 +110,7 @@ def jeanbinary():
             return render_template("jeanbinary.html", jean_bits=int(jean_bits))
     # starting and empty input default
     return render_template("jeanbinary.html", jean_bits=8)
+
 
 @app.route('/jaybinary/', methods=['GET', 'POST'])
 def jaybinary():
@@ -113,6 +122,7 @@ def jaybinary():
     # starting and empty input default
     return render_template("jaybinary.html", jay_bits=8)
 
+
 @app.route('/allie_binary/', methods=['GET', 'POST'])
 def allie_binary():
     # submit button has been pushed
@@ -123,6 +133,7 @@ def allie_binary():
     # starting and empty input default
     return render_template("allie_binary.html", allie_bits=8)
 
+
 @app.route('/alexbinary/', methods=['GET', 'POST'])
 def alexbinary():
     # submit button has been pushed
@@ -132,6 +143,7 @@ def alexbinary():
             return render_template("alexbinary.html", alexbits=int(alexbits))
     # starting and empty input default
     return render_template("alexbinary.html", alexbits=8)
+
 
 @app.route('/rgb/', methods=["GET", "POST"])
 def rgb():
@@ -145,9 +157,11 @@ def rgb():
     print(path)
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
+
 @app.route('/unsigned_addition/', methods=["GET", "POST"])
 def unsigned_addition():
     return render_template("unsigned_addition.html", path=Path, BITS=8)
+
 
 @app.route('/colorcode/', methods=['GET', 'POST'])
 def colorcode():
@@ -159,9 +173,11 @@ def colorcode():
     # starting and empty input default
     return render_template("colorcode.html", jean_bits_3=8)
 
+
 @app.route('/logicgates/')
 def logicgates():
     return render_template("logicgates.html")
+
 
 @app.route('/joke', methods=['GET', 'POST'])
 def joke():
@@ -206,6 +222,10 @@ def covid19():
     """
 
     return render_template("covid19.html", stats=response.json())
+
+@app.route('/sports/')
+def sports():
+    return render_template("sports.html")
 
 # runs the application on the development server
 if __name__ == "__main__":
