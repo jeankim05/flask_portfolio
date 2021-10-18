@@ -234,7 +234,7 @@ def sport():
     response = requests.request("GET", url)
     return render_template("sport.html", sport=response.json())
 
-@app.route('/sports', methods=['GET', 'POST'])
+@app.route('/sports/', methods=['GET', 'POST'])
 def sports():
     url = "http://localhost:5000/api/sports"
     response = requests.request("GET", url)
