@@ -240,6 +240,10 @@ def sports():
     response = requests.request("GET", url)
     return render_template("sports.html", sports=response.json())
 
+@app.route('/womensapparel/', methods=['GET', 'POST'])
+def womensapparel():
+    return render_template("womensapparel.html")
+
 app.register_blueprint(api_bp)
 # runs the application on the development server
 if __name__ == "__main__":
