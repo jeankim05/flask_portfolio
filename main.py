@@ -244,6 +244,10 @@ def sports():
 def womensapparel():
     return render_template("womensapparel.html")
 
+@app.route('/athletes/')
+def athletes():
+    return render_template("athletes.html")
+
 app.register_blueprint(api_bp)
 # runs the application on the development server
 if __name__ == "__main__":
