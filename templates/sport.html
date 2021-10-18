@@ -3,16 +3,20 @@
 
 {% block body %}
 <div class="container">
+
     <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
         <div class="col-12" style="text-align: center;">
-            <h1><strong>All Sports</strong></h1>
+            <h1><strong>Random Sport</strong></h1>
+            <form action={{url_for('sport')}}>
+                <button>Refresh!</button>
+            </form>
         </div>
 
+
+        <!-- Input and Content -->
         <div class="jumbotron text-left row">
             <div class="col-md">
-                {% for sport in sports %}
-                <p style="color: black;" class="setup"><strong>{{sport.id}}. {{sport.sport}}</strong></p>
-                {% endfor %}
+                <img width="600" height="400" src="{{sport.sport}}"/>
             </div>
         </div>
 
@@ -22,8 +26,9 @@
             <th>JSON Data</th>
         </tr>
         <tr>
-            <td>{{sports}}</td>
+            <td>{{sport}}</td>
         </tr>
     </table>
+
 </div>
 {% endblock %}

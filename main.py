@@ -1,8 +1,9 @@
 # import "packages" from flask
 from flask import Flask, render_template, request
-import requests
 from algorithm.image import image_data
 from pathlib import Path
+import requests
+from api.sportsapi import api_bp
 
 # create a Flask instance
 app = Flask(__name__)
@@ -223,10 +224,27 @@ def covid19():
 
     return render_template("covid19.html", stats=response.json())
 
-@app.route('/sports/')
-def sports():
-    return render_template("sports.html")
+@app.route('/sportsinformation/')
+def sportsinformation():
+    return render_template("sportsinformation.html")
 
+@app.route('/sport', methods=['GET', 'POST'])
+def sport():
+    url = "http://localhost:5000/api/sport"
+    response = requests.request("GET", url)
+    return render_template("sport.html", sport=response.json())
+
+@app.route('/sports', methods=['GET', 'POST'])
+def sports():
+    url = "http://localhost:5000/api/sports"
+    response = requests.request("GET", url)
+    return render_template("sports.html", sports=response.json())
+
+app.register_blueprint(api_bp)
 # runs the application on the development server
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(
+        debug=True,
+        host="127.0.0.1",
+        port=5000
+    ),
