@@ -66,9 +66,3 @@ def covid19():
     """
 
     return render_template("covid19.html", stats=response.json())
-
-@app_starter.route('/sports', methods=['GET', 'POST'])
-def sports():
-    url = "http://127.0.0.1:5000/sports"
-    response = requests.request("GET", url)
-    return render_template("sports.html", sports=response.json())
