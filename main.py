@@ -248,6 +248,10 @@ def womensapparel():
 def athletes():
     return render_template("athletes.html")
 
+@app.route('/mens_apparel/')
+def mens_apparel():
+    return render_template("mens_apparel.html")
+
 app.register_blueprint(api_bp)
 # runs the application on the development server
 if __name__ == "__main__":
