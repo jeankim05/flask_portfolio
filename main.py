@@ -190,6 +190,9 @@ def joke():
     response = requests.request("GET", url)
     return render_template("joke.html", joke=response.json())
 
+@app.route('/athletes/')
+def athletes():
+    return render_template("athletes.html")
 
 @app.route('/jokes', methods=['GET', 'POST'])
 def jokes():
