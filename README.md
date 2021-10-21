@@ -115,7 +115,7 @@ Alex | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, U
 
 Name | Requirements | Evidence / Tangibles | Individual Video Link |
 ---- | ------------ | -------------------- | --------------------- |
-Jean | 
-Jay|
-Allie|
-Alex|
+Jean | Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz  
+Jay| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
+Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
+Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
