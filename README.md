@@ -121,7 +121,7 @@ Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, 
 Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Men's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/59) | [Link to Individual Video](https://youtu.be/kxSFvi7tPWs)
 
 Name | Video Comments | Video Grades | Overall Grade | 
----- | ------------ | -------------------- | 
+---- | -------------- | ------------ | ------------- | 
 Jean | 
 Jay | 
 Allie | 
