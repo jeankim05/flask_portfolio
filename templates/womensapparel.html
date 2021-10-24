@@ -1,72 +1,117 @@
 {% extends "layouts/base.html" %}
+{% block body %}
 
 <!- This variable sets name of browser tab  -->
 {% set project = "Women's Sports Apparel" %}
 
+<head>
+    <style>
+        html, body {
+            background-color: deepskyblue;
+        }
+
+        h2, {
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            text-decoration: underline;
+            color: aliceblue;
+            font-variant: small-caps;
+            font-size: 30px;
+        }
+        a {
+            color: aliceblue;
+            font-variant: small-caps;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+        }
+    </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded',function(){
+        document.getElementById("purpleshoe-rotate").onclick = function(){
+            var currentRotate = document.getElementById("purpleshoe").style.transform;
+            if(currentRotate == "rotate(180deg)"){
+                document.getElementById("purpleshoe").style.transform = "rotate(360deg)";
+            }else {
+                document.getElementById("purpleshoe").style.transform = "rotate(180deg)";
+            }
+        }
+    })
+</script>
+
+<head>
+<body>
+
 <!- This is a replacement block for Body in base.html -->
-{% block body %}
-<title>Women's Apparel</title>
 
-<!- Get links from various apparel websites for the Women's category, maybe also some non-brand retailers-->
-<p>Shop by Sport</p>
-<a href="https://www.adidas.com/us/women-performance" target="_blank">Adidas</a>
-<br>
-<a href="https://www.nike.com/w/new-womens-3n82yz5e1x6" target="_blank">Nike</a>
-<br>
-<a href="https://us.puma.com/us/en/sport" target="_blank">Puma</a>
-<br>
-<a href="https://www.underarmour.com/en-us/" target="_blank">Under Armour</a>
-<br>
-<a href="https://www.newbalance.com/" target="_blank">New Balance</a>
+    <h2>Women's Apparel</h2>
 
-<!- Making sections with 2 images as examples from different brands, and linking those images to the online stores using blank target to open in new tab-->
-<p>Shoes</p>
-<a href="https://www.asics.com/us/en-us/womens-shoes/c/aa20200000/" target="_blank">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zH86YOlbytSFReXGTtd_bwHaFc%26pid%3DApi&f=1" style="..."/>
-</a>
+    <!- Get links from various apparel websites for the Women's category, maybe also some non-brand retailers-->
+    <p>Shop by Sport</p>
+    <a href="https://www.adidas.com/us/women-performance" target="_blank">Adidas</a>
 
-<a href="https://www.nike.com/w/womens-shoes-5e1x6zy7ok" target="_blank">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AC_drrX7LajIELkn8hDSQwHaHa%26pid%3DApi&f=1" width="474"/>
-</a>
+    <a href="https://www.nike.com/w/womens-best-5e1x6z76m50" target="_blank">Nike</a>
 
-<p>Hats</p>
+    <a href="https://us.puma.com/us/en/women/sports" target="_blank">Puma</a>
 
-<a href="https://www.adidas.com/us/women-hats%7Cheadbands" target="_blank">
-    <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3489000/altimages/ff_3489081-e67c2473ef26dd577ba0alt1_full.jpg&w=900" height="400" width="400"/>
-</a>
+    <a href="https://www.underarmour.com/en-us/t/womens/" target="_blank">Under Armour</a>
 
-<a href="https://www.timberland.com/shop/womens-hats-scarves-gloves" target="_blank">
-    <img src="https://i.pinimg.com/originals/c3/61/50/c36150e57ea127f819e277fbb95b2cfe.jpg"/>
-</a>
+    <a href="https://www.newbalance.com/women/" target="_blank">New Balance</a>
 
-<p>Shirts</p>
-<a href="https://www.underarmour.com/en-us/c/womens/clothing/tops/" target="_blank">
-    <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1366130-554_HB?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
-</a>
+    <!- Making sections with 2 images as examples from different brands, and linking those images to the online stores using blank target to open in new tab-->
+    <p>Shoes</p>
+    <a href="https://www.asics.com/us/en-us/womens-shoes/c/aa20200000/" target="_blank">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.zH86YOlbytSFReXGTtd_bwHaFc%26pid%3DApi&f=1" style="..."/>
+    </a>
+    <a href="https://www.nike.com/w/womens-shoes-5e1x6zy7ok" target="_blank">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AC_drrX7LajIELkn8hDSQwHaHa%26pid%3DApi&f=1" width="474", img id="purpleshoe"/>
+    </a>
 
-<a href="https://www.asics.com/us/en-us/womens-short-sleeve-shirts/c/aa20301000/" target="_blank">
-    <img src="https://www.jogging-point.com/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw40ebcbc1/images/020/450/04103000_000.jpg?q=80&sw=2000" height="400" width="400"/>
-</a>
+    <input id="purpleshoe-rotate" type="submit" value="Rotate">
 
-<p>Pants</p>
-<a href="https://www.adidas.com/us/women-tights" target="_blank">
-    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/245532b5f6144543a916ad1200ffdae3_9366/Marimekko_Believe_This_Long_Tights_Blue_GR8087_01_laydown.jpg" height="400" width="400"/>
-</a>
-<a href="https://www.underarmour.com/en-us/c/womens/clothing/bottoms/" target="_blank">
-    <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1356417-035_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
-</a>
+    <p>Hats</p>
 
-<p>Jackets</p>
-<a href="https://www.nike.com/w/womens-hoodies-pullovers-5e1x6z6rive" target="_blank">
-    <img src="https://th.bing.com/th/id/OIP.aLiaL8ZaS-hSWdCdGrMnzAHaLb?pid=ImgDet&rs=1" height="510" width="370"/>
-</a>
+    <a href="https://www.adidas.com/us/women-hats%7Cheadbands" target="_blank">
+        <img src="https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3489000/altimages/ff_3489081-e67c2473ef26dd577ba0alt1_full.jpg&w=900" height="400" width="400"/>
+    </a>
 
-<a href="https://www.underarmour.com/en-us/c/womens/clothing/outerwear/" target="_blank">
-    <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1365908-554_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
-</a>
+    <a href="https://www.timberland.com/shop/womens-hats-scarves-gloves" target="_blank">
+        <img src="https://i.pinimg.com/originals/c3/61/50/c36150e57ea127f819e277fbb95b2cfe.jpg"/>
+    </a>
 
-{% endblock %}
+    <p>Shirts</p>
+    <a href="https://www.underarmour.com/en-us/c/womens/clothing/tops/" target="_blank">
+        <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1366130-554_HB?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
+    </a>
 
-<!- This is turning off birds background from base.html   -->
-{% block background %}
+    <a href="https://www.asics.com/us/en-us/womens-short-sleeve-shirts/c/aa20301000/" target="_blank">
+        <img src="https://www.jogging-point.com/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw40ebcbc1/images/020/450/04103000_000.jpg?q=80&sw=2000" height="400" width="400"/>
+    </a>
+
+    <p>Pants</p>
+    <a href="https://www.adidas.com/us/women-tights" target="_blank">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/245532b5f6144543a916ad1200ffdae3_9366/Marimekko_Believe_This_Long_Tights_Blue_GR8087_01_laydown.jpg" height="400" width="400"/>
+    </a>
+    <a href="https://www.underarmour.com/en-us/c/womens/clothing/bottoms/" target="_blank">
+        <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1356417-035_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
+    </a>
+
+    <p>Jackets</p>
+    <a href="https://www.nike.com/w/womens-hoodies-pullovers-5e1x6z6rive" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.aLiaL8ZaS-hSWdCdGrMnzAHaLb?pid=ImgDet&rs=1" height="510" width="370"/>
+    </a>
+
+    <a href="https://www.underarmour.com/en-us/c/womens/clothing/outerwear/" target="_blank">
+        <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1365908-554_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" height="400" width="400"/>
+    </a>
+
+</body>
+
 {% endblock %}

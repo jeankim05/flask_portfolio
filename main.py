@@ -152,9 +152,11 @@ def rgb():
     rawList = image_data(path)
     colorList = []
     grayList = []
+
     for img in rawList:
         colorList.append(img['base64'])
         grayList.append(img['base64_GRAY'])
+
     print(path)
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
@@ -251,6 +253,7 @@ def athletes():
 @app.route('/mens_apparel/')
 def mens_apparel():
     return render_template("mens_apparel.html")
+
 
 app.register_blueprint(api_bp)
 # runs the application on the development server
