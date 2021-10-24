@@ -191,6 +191,7 @@ def joke():
     return render_template("joke.html", joke=response.json())
 
 
+
 @app.route('/jokes', methods=['GET', 'POST'])
 def jokes():
     """
@@ -240,6 +241,10 @@ def sports():
     response = requests.request("GET", url)
     return render_template("sports.html", sports=response.json())
 
+@app.route('/sportspictures/')
+def sportspictures():
+    return render_template("sportspictures.html")
+
 @app.route('/womensapparel/', methods=['GET', 'POST'])
 def womensapparel():
     return render_template("womensapparel.html")
@@ -251,6 +256,21 @@ def athletes():
 @app.route('/mens_apparel/', methods=['GET', 'POST'])
 def mens_apparel():
     return render_template("mens_apparel.html")
+
+@app.route('/sportsscore', methods=['GET', 'POST'])
+def sportsscore():
+    url = "https://sportscore1.p.rapidapi.com/sports/1/teams"
+    headers = {
+        'x-rapidapi-host': "sportscore1.p.rapidapi.com",
+        'x-rapidapi-key': "39c4bf8c2emsh30b02ab6dc01dd9p13f427jsn690a650cf2ec"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+    return render_template("sportsscore.html", stats=response.json())
+
+@app.route('/practice/')
+def practice():
+    return render_template("practice.html")
 
 app.register_blueprint(api_bp)
 # runs the application on the development server

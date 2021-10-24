@@ -12,7 +12,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 6 Week 6](#sprint_6_week_6)
 - [Sprint 7,8 Week 7](#sprint_78_week_7)
 - [Sprint 7,8 Week 8](#sprint_78_week_8)
-- [Sprint 9,10 Week 9](#sprint_78_week_8)
+- [Sprint 9,10 Week 9](#sprint_910_week_9)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -104,9 +104,25 @@ Scrum Team Video (2 Minute Video on Sprint 7,8 Week 7): [Video Link](https://www
 
 ### Sprint_7,8_Week_8
 
-Name | Requirements | Evidence / Tangibles | Grade (Given by Crossover Team and Teacher Review) |
----- | ------------ | -------------------- | ----- |
+Name | Requirements | Evidence / Tangibles | 
+---- | ------------ | -------------------- | 
 Jean | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, Updating Sports Page | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/54)
 Jay | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, Updating Athletes Page | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/53)
 Allie | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, Updating Women's Apparel Page| [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/51)
 Alex | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, Updating Men's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/52)
+
+### Sprint_9,10_Week_9
+
+Name | Requirements | Evidence / Tangibles | Individual Video Link |
+---- | ------------ | -------------------- | --------------------- |
+Jean | Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Sports Page with more technicals | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/56) | [Link to Individual Video](https://youtu.be/hGTwGuezJxE)
+Jay| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Athletes Page | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) | [Link to Individual Video](https://youtu.be/pNIw2UwuxBE)
+Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Women's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) | [Link to Individual Video](https://youtu.be/N2y7AZUktkg)
+Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Men's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) | [Link to Individual Video](https://youtu.be/kxSFvi7tPWs)
+
+Name | Video Grades | Overall Grade | 
+---- | ------------ | -------------------- | 
+Jean | 
+Jay | 
+Allie | 
+Alex | 

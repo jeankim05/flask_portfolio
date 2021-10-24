@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+
+{% block body %}
+<head>
+<style>
+    h2 {
+        color: black;
+        text-align: center;
+        padding-top: 75px;
+        front-weight:bold;
+    }
+    #allsport-rotate {
+        margin: 35px 160px;
+    }
+    #NBA-rotate {
+        margin: 35px 160px;
+    }
+    #NFL-rotate {
+        margin: 35px 160px;
+    }
+    #MLB-rotate {
+        margin: 35px 160px;
+    }
+</style>
+<style>
+    html, body {
+        background-color: deepskyblue;
+    }
+</style>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            document.getElementById("allsport-rotate").onclick = function(){
+                var currentRotate = document.getElementById("allsportimage").style.transform;
+                if(currentRotate == "rotate(180deg)"){
+                    document.getElementById("allsportimage").style.transform = "rotate(360deg)";
+                }else {
+                    document.getElementById("allsportimage").style.transform = "rotate(180deg)";
+                }
+            }
+        })
+        document.addEventListener('DOMContentLoaded',function(){
+            document.getElementById("NBA-rotate").onclick = function(){
+                var currentRotate = document.getElementById("NBAimage").style.transform;
+                if(currentRotate == "rotate(180deg)"){
+                    document.getElementById("NBAimage").style.transform = "rotate(360deg)";
+                }else {
+                    document.getElementById("NBAimage").style.transform = "rotate(180deg)";
+                }
+            }
+        })
+        document.addEventListener('DOMContentLoaded',function(){
+            document.getElementById("NFL-rotate").onclick = function(){
+                var currentRotate = document.getElementById("NFLimage").style.transform;
+                if(currentRotate == "rotate(180deg)"){
+                    document.getElementById("NFLimage").style.transform = "rotate(360deg)";
+                }else {
+                    document.getElementById("NFLimage").style.transform = "rotate(180deg)";
+                }
+            }
+        })
+        document.addEventListener('DOMContentLoaded',function(){
+            document.getElementById("MLB-rotate").onclick = function(){
+                var currentRotate = document.getElementById("MLBimage").style.transform;
+                if(currentRotate == "rotate(180deg)"){
+                    document.getElementById("MLBimage").style.transform = "rotate(360deg)";
+                }else {
+                    document.getElementById("MLBimage").style.transform = "rotate(180deg)";
+                }
+            }
+        })
+    </script>
+<head>
+<body>
+
+<h2>Sports Pictures</h2>
+
+<img id= "allsportimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuQ2jEZaYRv6_L5WDIonFfIxB9ozCuWvpji8L7LJ2xY4BiPYrrq82LQY0tU6vLQ0H-BiE&usqp=CAU" alt="Sports Picture" width="400" height="330">
+<img id= "NBAimage" src="https://pbs.twimg.com/media/E6ymUHOX0AAVBB6.jpg" alt="NBA Picture" width="400" height="330">
+<img id= "NFLimage" src ="https://www.miamiherald.com/latest-news/d0zdq8/picture239906798/alternates/FREE_1140/MIA_AD_Super_Bowl_MJO_72.JPG" alt="NFL Picture" width="400" height="330">
+<img id= "MLBimage" src ="https://m.media-amazon.com/images/I/91X7eM1ED+L._SY550_.jpg" alt="MLB Picture" width="400" height="330">
+
+    <br>
+        <input id="allsport-rotate" type="submit" value="Rotate">
+        <input id="NBA-rotate" type="submit" value="Rotate">
+        <input id="NFL-rotate" type="submit" value="Rotate">
+        <input id="MLB-rotate" type="submit" value="Rotate">
+    <br>
+
+<h2>Try clicking on the images to rotate them!</h2>
+
+</body>
+
+{% endblock %}
