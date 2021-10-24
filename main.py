@@ -152,11 +152,9 @@ def rgb():
     rawList = image_data(path)
     colorList = []
     grayList = []
-
     for img in rawList:
         colorList.append(img['base64'])
         grayList.append(img['base64_GRAY'])
-
     print(path)
     return render_template('rgb.html', images=rawList, colored=colorList, grayed=grayList)
 
@@ -191,6 +189,7 @@ def joke():
     url = "https://csp.nighthawkcodingsociety.com/api/joke"
     response = requests.request("GET", url)
     return render_template("joke.html", joke=response.json())
+
 
 
 @app.route('/jokes', methods=['GET', 'POST'])
@@ -242,6 +241,10 @@ def sports():
     response = requests.request("GET", url)
     return render_template("sports.html", sports=response.json())
 
+@app.route('/sportspictures/')
+def sportspictures():
+    return render_template("sportspictures.html")
+
 @app.route('/womensapparel/', methods=['GET', 'POST'])
 def womensapparel():
     return render_template("womensapparel.html")
@@ -254,6 +257,20 @@ def athletes():
 def mens_apparel():
     return render_template("mens_apparel.html")
 
+@app.route('/sportsscore', methods=['GET', 'POST'])
+def sportsscore():
+    url = "https://sportscore1.p.rapidapi.com/sports/1/teams"
+    headers = {
+        'x-rapidapi-host': "sportscore1.p.rapidapi.com",
+        'x-rapidapi-key': "39c4bf8c2emsh30b02ab6dc01dd9p13f427jsn690a650cf2ec"
+    }
+
+    response = requests.request("GET", url, headers=headers)
+    return render_template("sportsscore.html", stats=response.json())
+
+@app.route('/practice/')
+def practice():
+    return render_template("practice.html")
 
 app.register_blueprint(api_bp)
 # runs the application on the development server

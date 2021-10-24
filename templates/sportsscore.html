@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+    {% set teams = stats.data %}
+
+    <div class="center-block" style="margin: 2% 5% 5%; font-family: gilroy,serif;">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center;">
+            <h1><strong>Soccer Database and Information</strong></h1>
+        </div>
+
+        <!-- Sequence -->
+        <div class="col-12 mainbox center-block">
+            <table style="margin: 2%">
+                <tr>
+                    <th>Country</th>
+                    <th>Gender</th>
+                    <th>Team Name</th>
+                    <th>Logo</th>
+                </tr>
+
+                {% for team in teams %}
+                    <tr>
+                        {% set country = team.country %}
+                        <td>{{country}}</td>
+                        {% set gender = team.gender %}
+                        <td>{{gender}}</td>
+                        {% set teamname = team.name %}
+                        <td>{{teamname}}</td>
+                        {% set logo = team.logo %}
+                        <td><img src="{{logo}}"></td>
+                    </tr>
+                {% endfor %}
+            </table>
+
+        </div>
+
+    </div>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:center;
+        }
+        table{
+            width: 100%;
+            margin:auto;
+        }
+        .mainbox{
+            {#width: 1600px;#}
+            text-align: center;
+        }
+    </style>
+
+{% endblock %}
