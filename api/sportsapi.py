@@ -19,7 +19,7 @@ sports_list = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwDYc49_qZLLvzVJ0H_xWz2M-KtAMS1jgTQ&usqp=CAU"
 ]
 
-def _find_next_id():
+def find_next_id():
     return max(sports["id"] for sport in sports) + 1
 
 
