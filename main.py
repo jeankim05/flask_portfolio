@@ -240,6 +240,10 @@ def sports():
     response = requests.request("GET", url)
     return render_template("sports.html", sports=response.json())
 
+@app.route('/sportspictures/')
+def sportspictures():
+    return render_template("sportspictures.html")
+
 @app.route('/womensapparel/', methods=['GET', 'POST'])
 def womensapparel():
     return render_template("womensapparel.html")
