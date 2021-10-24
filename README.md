@@ -120,9 +120,9 @@ Jay| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Up
 Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Women's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/58) | [Link to Individual Video](https://youtu.be/N2y7AZUktkg)
 Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Men's Apparel Page | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/59) | [Link to Individual Video](https://youtu.be/kxSFvi7tPWs)
 
-Name | Video Comments | Video Grades | Overall Grade | 
+Name | Video Comments | Grades Given by Team | Overall Grade | 
 ---- | -------------- | ------------ | ------------- | 
-Jean | Good work on scrum board and working on the PBL with the group, showed exceptional understanding of the PBL, assignments and technical aspects, may want to work on CSS styling to organize the page more
+Jean | Good work on scrum board and working on the PBL with the group, showed exceptional understanding of the PBL, assignments and technical aspects, may want to work on CSS styling to organize the page more | 8/8, 8/8, 7.5/8, 7.75/8 | 7.8/8
 Jay | Good tangible commits including image manipulation, CSS and styling, and the API from rapidapi, may want to work on adding more pages so that the athletes pages have more depth and getting more significant commits
 Allie | Good CSS and styling on women's apparel page, nice use of conditionals for image manipulation, may want to try and incorporate CSS to the navbar and try to get more significant commits
 Alex | Good use of images and accompanying links to the websites, could have focused more on CSS and explaining how the code on PBL connects to college board topics
