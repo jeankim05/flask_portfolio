@@ -123,6 +123,6 @@ Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, U
 Name | Video Comments | Grades Given by Team | Overall Grade | 
 ---- | -------------- | ------------ | ------------- | 
 Jean | Good work on scrum board and working on the PBL with the group, showed exceptional understanding of the PBL, assignments and technical aspects, may want to work on CSS styling to organize the page more | 8/8, 8/8, 7.5/8, 7.75/8 | 7.8/8
-Jay | Good tangible commits including image manipulation, CSS and styling, and the API from rapidapi, may want to work on adding more pages so that the athletes pages have more depth and getting more significant commits
+Jay | Good tangible commits including image manipulation, CSS and styling, and the API from rapidapi, may want to work on adding more pages so that the athletes pages have more depth and getting more significant commits | 7/8, 7.25/8, 7.25/8, 7.25/8 | 7.2/8 (missing college board quizzes)
 Allie | Good CSS and styling on women's apparel page, nice use of conditionals for image manipulation, may want to try and incorporate CSS to the navbar and try to get more significant commits
 Alex | Good use of images and accompanying links to the websites, could have focused more on CSS and explaining how the code on PBL connects to college board topics
