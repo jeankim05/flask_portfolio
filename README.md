@@ -119,3 +119,10 @@ Jean | Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, 
 Jay| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
 Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
 Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
+
+Name | Video Grades | Overall Grade | 
+---- | ------------ | -------------------- | 
+Jean | 
+Jay | 
+Allie | 
+Alex | 
