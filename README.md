@@ -115,7 +115,7 @@ Alex | Journal Notes on 3.7 Work and Quiz, Journal Notes on 3.8 Work and Quiz, U
 
 Name | Requirements | Evidence / Tangibles | Individual Video Link |
 ---- | ------------ | -------------------- | --------------------- |
-Jean | Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Sports Page with more technicals | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/56)
+Jean | Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz, Updating Sports Page with more technicals | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/56) | [Link to Individual Video](https://youtu.be/hGTwGuezJxE)
 Jay| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
 Allie| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
 Alex| Journal Notes on 3.9 Work and Quiz, Journal Notes on 3.10 Work and Quiz
