@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 {% extends "layouts/base.html" %}
 
 <!- This variable sets name of browser tab  -->
@@ -12,40 +13,87 @@
 <html>
 <head>
     <style>
+        h1 {
+            color: #663399
+        }
         p {
-            font-size: 20px;
+            font-size: 24px;
             font-weight: bold;
+            color: #663399
         }
     </style>
 </head>
+<script>
+
+    document.addEventListener('DOMContentLoaded',function(){
+        document.getElementById("bluejacket-rotate").onclick = function() {
+            var currentRotate = document.getElementById("bluejacket").style.transform;
+            if (currentRotate == "rotate(180deg)") {
+                document.getElementById("bluejacket").style.transform = "rotate(360deg)";
+            } else {
+                document.getElementById("bluejacket").style.transform = "rotate(180deg)";
+            }
+        }
+    })
+</script>
 <body>
 <h1 class="text-center">Men's Apparel</h1>
-<!- Making sections with 2 images as examples from different brands, and linking those images to the online stores using blank target to open in new tab-->
-<p>Jackets</p>
-<a href="https://www.adidas.com/us/essentials-3-stripes-tricot-track-top/DQ3070.html?af_channel=Search&af_click_lookback=30d&af_reengagement_window=30d&c=PLA&cm_mmc=AdieSEM_Feeds-_-GoogleProductAds-_-NA-_-DQ3070&cm_mmca1=US&cm_mmca2=NA&dfw_tracker=24819-DQ3070-0002&ds_rl=1257012&ds_rl=1257009&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp0fHchpKOLDwSMsh32vcI2H7reMYKcafQ1o9ecFRbHGtUt77n05kyRoCOV0QAvD_BwE&gclsrc=aw.ds&is_retargeting=true&kpid=DQ3070&pid=googleadwords_temp&sourceid=543457011DQ3070" target="_blank">
-    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/286e801fc4db4d61b267a98400d9166c_9366/Essentials_3-Stripes_Tricot_Track_Top_Black_DQ3070_01_laydown.jpg" style="height:45%; width:25%"/>
-</a>
+<div class="col-14">
+    <p>Shop by Sport</p>
+    <a href="https://www.adidas.com/us/men" target="_blank">Adidas</a>
+    <br>
+    <a href="https://www.newbalance.com/men/" target="_blank">New Balance</a>
+    <br>
+    <a href="https://www.nike.com/men" target="_blank">Nike</a>
+    <br>
+    <a href="https://us.puma.com/us/en/men" target="_blank">Puma</a>
+    <br>
+    <a href="https://www.underarmour.com/en-us/c/mens/" target="_blank">Under Armour</a>
+    <br><br>
 
-<a href="https://www.soccer.com/shop/details/nike-academy-21-jacket_A1050320?gclid=CjwKCAjwk6-LBhBZEiwAOUUDp99SwhLnvBcRU87GeWwAkvyHRm9EwDNKZ2GCbgP8MsU54c3LfyGmYxoCrg4QAvD_BwE&gclsrc=aw.ds" target="_blank">
-    <img src="https://www.imagehandler.net/preview/?istyle=0000&fmt=jpg&w=2000&h=2000&cmp=100&c=020&img=A1050320000&iset=0100&iindex=0007" height=45% width="25%"/>
-</a>
+    <!- Making sections with 2 images as examples from different brands, and linking those images to the online stores using blank target to open in new tab-->
+    <p>Jackets</p>
+    <a href="https://www.adidas.com/us/essentials-3-stripes-tricot-track-top/DQ3070.html?af_channel=Search&af_click_lookback=30d&af_reengagement_window=30d&c=PLA&cm_mmc=AdieSEM_Feeds-_-GoogleProductAds-_-NA-_-DQ3070&cm_mmca1=US&cm_mmca2=NA&dfw_tracker=24819-DQ3070-0002&ds_rl=1257012&ds_rl=1257009&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp0fHchpKOLDwSMsh32vcI2H7reMYKcafQ1o9ecFRbHGtUt77n05kyRoCOV0QAvD_BwE&gclsrc=aw.ds&is_retargeting=true&kpid=DQ3070&pid=googleadwords_temp&sourceid=543457011DQ3070" target="_blank">
+        <img id="nikejacket"
+             src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/286e801fc4db4d61b267a98400d9166c_9366/Essentials_3-Stripes_Tricot_Track_Top_Black_DQ3070_01_laydown.jpg" style="height:45%; width:25%"/>
+    </a>
 
+    <a href="https://www.soccer.com/shop/details/nike-academy-21-jacket_A1050320?gclid=CjwKCAjwk6-LBhBZEiwAOUUDp99SwhLnvBcRU87GeWwAkvyHRm9EwDNKZ2GCbgP8MsU54c3LfyGmYxoCrg4QAvD_BwE&gclsrc=aw.ds" target="_blank">
+        <img id="underarmourjacket"
+             src="https://www.imagehandler.net/preview/?istyle=0000&fmt=jpg&w=2000&h=2000&cmp=100&c=020&img=A1050320000&iset=0100&iindex=0007" style="width:25%;height:45%"/>
+    </a>
+
+    <a href="https://www.ebay.com/itm/284487348528?chn=ps&mkevt=1&mkcid=28" target="_blank">
+
+        <img id="bluejacket"
+             src="https://i.ebayimg.com/images/g/0HYAAOSwFhxhZtvY/s-l1600.jpg" style="width:25%;height:45%"/>
+    </a>
+    <input id="bluejacket-rotate" type="submit" value="Click to Rotate!">
+</div>
 <p>Pants</p>
 <a href="https://www.kohls.com/product/prd-3585868/mens-nike-sportswear-club-jersey-pants.jsp?skuid=76083900&CID=shopping15&utm_campaign=MEN%27S%20NIKE&utm_medium=CSE&utm_source=google&utm_product=76083900&utm_campaignid=9733267372&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp4WeibhW94k9MCzKuntEDQbaQeE9AIWUlfprqqyQQYEUIWu-UH5pRhoCShkQAvD_BwE&gclsrc=aw.ds" target="_blank">
     <img src="https://media.kohlsimg.com/is/image/kohls/3585868_Black_White?wid=1200&hei=1200&op_sharpen=1" style="width:25%; height:45%"/>
 </a>
 
 <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiWp4T3hdPzAhV_IK0GHWVcDqEYABAvGgJwdg&sig=AOD64_2jDhx5i4z81ezoHRk1Pge5uMFzjQ&adurl&ctype=5&ved=2ahUKEwjF4_T2hdPzAhW5AzQIHV4dCVoQuxd6BQgBELcD" target="_blank">
-    <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1367165-001_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" style="width:25%; height:45%"/>
+    <img src="https://underarmour.scene7.com/is/image/Underarmour/PS1367165-001_HF?rp=standard-0pad%7CpdpZoomDesktop&scl=0.72&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=1500,1500" style="width:25%;height:45%"/>
+</a>
+
+<a href="https://www.merchology.com/products/1310133-under-armour-red-shorts" target="_blank">
+    <img src="https://cdn.shopify.com/s/files/1/0312/6537/products/1310133-600-F_1024x1024.jpg?v=1577994087" style="width:25%;height:45%"/>
 </a>
 
 <p>Shoes</p>
 <a href="https://www.adidas.com/us/fluidflow-2.0-shoes/FZ1983.html?af_channel=Search&af_click_lookback=30d&af_reengagement_window=30d&c=PLA&cm_mmc=AdieSEM_Feeds-_-GoogleProductAds-_-NA-_-FZ1983&cm_mmca1=US&cm_mmca2=NA&dfw_tracker=24819-FZ1983-0009&ds_rl=1257009&ds_rl=1256970&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp_PnGq7rLtFbPr1Y5d1fMpVs6IoPobpU4RLKbomxKwscuTF0Z-tdgBoC9m0QAvD_BwE&gclsrc=aw.ds&is_retargeting=true&kpid=FZ1983&pid=googleadwords_temp&sourceid=543457011FZ1983" target="_blank">
-    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2645a4ae64f54b9e9702ac3700995660_9366/Fluidflow_2.0_Shoes_Black_FZ1983_01_standard.jpg" height="45%" width="25%"/>
+    <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2645a4ae64f54b9e9702ac3700995660_9366/Fluidflow_2.0_Shoes_Black_FZ1983_01_standard.jpg" style="width:25%;height:45%"/>
 </a>
 
 <a href="https://www.shoecarnival.com/mens_nike_revolution_5_running_shoes/67-2005206.html?ocid=pdsearch&gclid=CjwKCAjwk6-LBhBZEiwAOUUDp1SKo6psGusjc5HLDfFxHrroJVY7MDAqaD_TE67Nf0DPQKeoZFUdIRoCQ4YQAvD_BwE&gclsrc=aw.ds" target="_blank">
     <img src="https://www.shoecarnival.com/dw/image/v2/BBSZ_PRD/on/demandware.static/-/Sites-scvl-master-catalog/default/dw4c516841/102239_211055_1.jpg?sw=700&sh=593&sm=fit" style="width:25%;height:45%"/>
+</a>
+
+<a href="https://www.dressinn.com/fashion/new-balance-classic-70s-running-u720v1-trainers/137929334/p?utm_source=google_products&utm_medium=merchant&id_producte=12305559&country=us" target="_blank">
+    <img src="https://www.dressinn.com/f/13792/137929334/new-balance-classic-70s-running-u720v1-trainers.jpg" style="width:25%;height:45%"/>
 </a>
 {% endblock %}
 

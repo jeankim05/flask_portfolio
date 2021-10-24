@@ -253,7 +253,7 @@ def womensapparel():
 def athletes():
     return render_template("athletes.html")
 
-@app.route('/mens_apparel/')
+@app.route('/mens_apparel/', methods=['GET', 'POST'])
 def mens_apparel():
     return render_template("mens_apparel.html")
 
