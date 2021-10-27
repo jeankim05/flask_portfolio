@@ -7,6 +7,7 @@ from api.sportsapi import api_bp
 
 # create a Flask instance
 app = Flask(__name__)
+app.register_blueprint(api_bp)
 
 
 # connects default URL to render index.html
@@ -272,7 +273,6 @@ def sportsscore():
 def practice():
     return render_template("practice.html")
 
-app.register_blueprint(api_bp)
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(
