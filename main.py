@@ -254,6 +254,21 @@ def womensapparel():
 def athletes():
     return render_template("athletes.html")
 
+@app.route('/athletes-search/', methods=['GET', 'POST'])
+def athletes_search():
+    import requests
+    # Get the keyword value from POST
+    keyword = request.form.get("keyword");
+    url = "https://nba-player-individual-stats.p.rapidapi.com/players/firstname"
+    querystring = {"firstname":keyword}
+    headers = {
+        'x-rapidapi-host': "nba-player-individual-stats.p.rapidapi.com",
+        'x-rapidapi-key': "39c4bf8c2emsh30b02ab6dc01dd9p13f427jsn690a650cf2ec"
+    }
+    athleteApiResponse = requests.request("GET", url, headers=headers, params=querystring)
+
+    return render_template("athletes-search.html", results = athleteApiResponse.json())
+
 @app.route('/mens_apparel/', methods=['GET', 'POST'])
 def mens_apparel():
     return render_template("mens_apparel.html")

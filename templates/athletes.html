@@ -3,102 +3,130 @@
 {% extends "layouts/base.html" %}
 
 {% block body %}
+    <style>
+        html, body {
+            background-color: deepskyblue;
+        }
+        .main-container{
+            padding:20px;
+        }
+        h1{
+            color: #663399;
+            text-align: center;
+            font-style: serif;
+            font-weight: bold;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            padding-top: 60px;
+            font-weight: bold;
+        }
+        .top-athlete{
+            width: 33.33%;
+            float: left;
+            text-align: center;
+            padding: 20px;
+        }
+        .top-athletes-images{
+            padding-bottom: 20px;
+        }
+        .goat {
+            text-align: center;
+        }
+        #goatimage {
+            padding-bottom: 25px;
+        }
+        .goatvideo {
+            padding-top: 25px;
+        }
+        .forimage{
+            width: 40px;
+            height: 40px;
+            padding: 1px;
+        }
+        .forbuttons {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+    </style>
+    <script>
+        // Wait for the page to load before running JS
+        document.addEventListener('DOMContentLoaded',function(){
+            //On Lebron button click add his image 35 times
+            document.getElementById("lebron-button").onclick = function (){
+                var forSectionContent = "";
+                for(var i = 0; i <= 35; i++){
+                    forSectionContent += '<img class="forimage" src="https://static01.nyt.com/images/2020/06/10/us/politics/10lebron-voters/10lebron-voters-mediumSquareAt3X.jpg">';
+                }
+                //Set the html for forsection
+                document.getElementById("forsection").innerHTML =  forSectionContent;
+            }
+            //On Jordan button click add his image 35 times
+            document.getElementById("jordan-button").onclick = function (){
+                var forSectionContent = "";
+                for(var i = 0; i <= 35; i++){
+                    forSectionContent += '<img class="forimage" src="https://guardian.ng/wp-content/uploads/2020/05/Michael-Jordan.-Photo-Vulture-1.jpg">';
+                }
+                //Set the html for forsection
+                document.getElementById("forsection").innerHTML =  forSectionContent;
+            }
 
-    <html>
-        <head>
-            <style>
-                html, body {
-                    background-color: tomato;
+            //On rotate button click rotate the image
+            document.getElementById("goat-rotate").onclick = function(){
+                var currentRotate = document.getElementById("goatimage").style.transform;
+                if(currentRotate == "rotate(180deg)"){
+                    document.getElementById("goatimage").style.transform = "rotate(360deg)";
+                }else {
+                    document.getElementById("goatimage").style.transform = "rotate(180deg)";
                 }
-                .main-container{
-                    padding:20px;
+            }
+            //On flip button click flip the image
+            document.getElementById("goat-flip").onclick = function() {
+                var currentFlip = document.getElementById("goatimage").style.transform;
+                if(currentFlip == "scaleX(-1)") {
+                    document.getElementById("goatimage").style.transform = "scaleX(1)";
+                }else {
+                    document.getElementById("goatimage").style.transform= "scaleX(-1)";
                 }
-                h1{
-                    color: #495057;
-                    text-align: center;
-                }
-                h2 {
-                    color: #363d47;
-                    text-align: center;
-                    padding-top: 60px;
-                    font-weight: bold;
-                }
-                .top-athlete{
-                    width: 33.33%;
-                    float: left;
-                    text-align: center;
-                    padding: 20px;
-                }
-                .top-athletes-images{
-                    padding-bottom: 20px;
-                }
-                .goat {
-                    text-align: center;
-                }
-                #goatimage {
-                    padding-bottom: 25px;
-                }
-                .goatvideo {
-                    padding-top: 25px;
-                }
-
-
-            </style>
-            <script>
-               // Wait for the page to load before running JS
-                document.addEventListener('DOMContentLoaded',function(){
-                    document.getElementById("goat-rotate").onclick = function(){
-                        var currentRotate = document.getElementById("goatimage").style.transform;
-                        if(currentRotate == "rotate(180deg)"){
-                            document.getElementById("goatimage").style.transform = "rotate(360deg)";
-                        }else {
-                            document.getElementById("goatimage").style.transform = "rotate(180deg)";
-                        }
-                    }
-                    document.getElementById("goat-flip").onclick = function() {
-                        var currentFlip = document.getElementById("goatimage").style.transform;
-                        if(currentFlip == "scaleX(-1)") {
-                            document.getElementById("goatimage").style.transform = "scaleX(1)";
-                        }else {
-                            document.getElementById("goatimage").style.transform= "scaleX(-1)";
-                        }
-                    }
-                })
-            </script>
-        </head>
-    <body>
-        <div class="main-container">
-            <h1>Athletes Information</h1>
-            <h2>Top Athletes</h2>
-            <div class="top-row">
-                <div class="top-athlete">
-                    <h3>Lionel Messi</h3>
-                    <img class="top-athletes-images" id="messi" src="https://cdn-media.theathletic.com/cdn-cgi/image/fit=cover,width=700,height=466/6XoHZbMqDnuE_6XoHZbMqDnuE_o75NRCAbo2PG_original_1440x960.jpg" alt="Lionel Messi" height="400" width="400">
-                    <p>Lionel Messi is one of the greatest athletes on the planet. Starting at a young age, his magical ability and skills brought him to the highest level. He is currently regarded as one of the best or even the best soccer player in the world.</p>
-                </div>
-                <div class="top-athlete">
-                    <h3>Lebron James</h3>
-                    <img class="top-athletes-images" src="https://s.yimg.com/ny/api/res/1.2/0UVdgPmFpviz5if4iytiqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/uu/api/res/1.2/jjj4ZGRikC18Nc3zal7IRw--~B/aD0xNDQwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/lebron_wire_usa_today_sports_articles_234/0ac9858f19c3f8c7ba7ae695eb5fed41"Lebron James" height="400" width="400" >
-                    <p>Lebron James is one of the greatest basketball players the world has ever seen. Coming into retirement age, Lebron James has won 4 championships and has been in contest for the GOAT position.</p>
-                </div>
-                <div class="top-athlete">
-                    <h3>Tom Brady</h3>
-                    <img class="top-athletes-images" src="https://static01.nyt.com/images/2021/02/07/sports/07sb-oldbrady/07sb-oldbrady-mobileMasterAt3x.jpg" alt="Tom Brady" height="400" width="400">
-                    <p>Tom Brady is 43 years old and has won 7 superbowls in his career. The amount of superbowls won almost doubles that of the second most superbowls won by Joe Montana. Having idiolized Joe Montana in his youth, Brady has created a legacy which has surpassed that of even his own idol.</p>
-                </div>
+            }
+        })
+    </script>
+    <div class="main-container">
+        <h1>Athletes Information</h1>
+        <h2>Top Athletes</h2>
+        <div class="top-row">
+            <div class="top-athlete">
+                <h3>Lionel Messi</h3>
+                <img class="top-athletes-images" id="messi" src="https://cdn-media.theathletic.com/cdn-cgi/image/fit=cover,width=700,height=466/6XoHZbMqDnuE_6XoHZbMqDnuE_o75NRCAbo2PG_original_1440x960.jpg" alt="Lionel Messi" height="400" width="400">
+                <p>Lionel Messi is one of the greatest athletes on the planet. Starting at a young age, his magical ability and skills brought him to the highest level. He is currently regarded as one of the best or even the best soccer player in the world.</p>
             </div>
-
-            <h1 >Who is the True Goat</h1>
-             <div class="goat">
-                 <img id="goatimage" src="https://e0.365dm.com/19/03/2048x1152/lebron-james-michael-jordan_4598953.jpg" alt="Tom Brady" height="400" width="400">
-                 <br>
-                 <input id="goat-rotate" type="submit" value="Rotate">
-                 <input id="goat-flip" type="submit" value="Flip">
-                 <br>
-                 <iframe class="goatvideo" width="560" height="315" src="https://www.youtube.com/embed/tl3mR6eoEa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             </div>
+            <div class="top-athlete">
+                <h3>Lebron James</h3>
+                <img class="top-athletes-images" src="https://s.yimg.com/ny/api/res/1.2/0UVdgPmFpviz5if4iytiqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://s.yimg.com/uu/api/res/1.2/jjj4ZGRikC18Nc3zal7IRw--~B/aD0xNDQwO3c9MjU2MDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/lebron_wire_usa_today_sports_articles_234/0ac9858f19c3f8c7ba7ae695eb5fed41"Lebron James" height="400" width="400" >
+                <p>Lebron James is one of the greatest basketball players the world has ever seen. Coming into retirement age, Lebron James has won 4 championships and has been in contest for the GOAT position.</p>
+            </div>
+            <div class="top-athlete">
+                <h3>Tom Brady</h3>
+                <img class="top-athletes-images" src="https://static01.nyt.com/images/2021/02/07/sports/07sb-oldbrady/07sb-oldbrady-mobileMasterAt3x.jpg" alt="Tom Brady" height="400" width="400">
+                <p>Tom Brady is 43 years old and has won 7 superbowls in his career. The amount of superbowls won almost doubles that of the second most superbowls won by Joe Montana. Having idiolized Joe Montana in his youth, Brady has created a legacy which has surpassed that of even his own idol.</p>
+            </div>
         </div>
-    </body>
-    </html>
+
+        <h1 >Who is the True Goat</h1>
+        <div class="goat">
+            <img id="goatimage" src="https://e0.365dm.com/19/03/2048x1152/lebron-james-michael-jordan_4598953.jpg" alt="Tom Brady" height="400" width="400">
+            <br>
+            <input id="goat-rotate" type="submit" value="Rotate">
+            <input id="goat-flip" type="submit" value="Flip">
+            <br>
+            <iframe class="goatvideo" width="560" height="315" src="https://www.youtube.com/embed/tl3mR6eoEa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="forbuttons">
+            <input id="jordan-button" type="submit" value="Show Jordan">
+            <input id="lebron-button" type="submit" value="Show Lebron">
+        </div>
+        <div id="forsection"></div>
+    </div>
 
 {% endblock %}

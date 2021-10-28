@@ -2,6 +2,24 @@
 {% extends "layouts/base.html" %}
 
 {% block body %}
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:center;
+        }
+        table{
+            width: 100%;
+            margin:auto;
+        }
+        .mainbox{
+            text-align: center;
+        }
+        h5 {
+            text-align: center;
+        }
+    </style>
 
     {% set teams = stats.data %}
 
@@ -38,21 +56,5 @@
         </div>
 
     </div>
-    <style>
-        table, td, th {
-            border: 1px solid white;
-        }
-        td, th {
-            text-align:center;
-        }
-        table{
-            width: 100%;
-            margin:auto;
-        }
-        .mainbox{
-            {#width: 1600px;#}
-            text-align: center;
-        }
-    </style>
 
 {% endblock %}
