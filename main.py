@@ -7,6 +7,7 @@ from api.sportsapi import api_bp
 
 # create a Flask instance
 app = Flask(__name__)
+app.register_blueprint(api_bp)
 
 
 # connects default URL to render index.html
@@ -272,7 +273,16 @@ def sportsscore():
 def practice():
     return render_template("practice.html")
 
-app.register_blueprint(api_bp)
+@app.route('/sportsforum/', methods=['GET', 'POST'])
+def sportsforum():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("sportsforum.html", greetforum=name)
+    # starting and empty input default
+    return render_template("sportsforum.html", greetforum="World")
+
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(
