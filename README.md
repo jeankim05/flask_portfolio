@@ -128,7 +128,7 @@ Jay | Good tangible commits including image manipulation, CSS and styling, and t
 Allie | Good CSS and styling on women's apparel page, nice use of conditionals for image manipulation, may want to try and incorporate CSS to the navbar and try to get more significant commits, video was a little long, so it was harder to stay focused throughout, but the font and unity matched well with the theme of the project overall [Commit](https://github.com/jeankim05/flask_portfolio/commit/b50fb32a3ac0e290967e9931bb77e71502a4773e) | 7/8, 7.25/8, 7.25/8, 7.25/8 | 7.2/8 (missing college board quizzes)
 Alex | Good use of images and accompanying links to the websites, demonstrating competence in iterations and conditionals, could have focused more on CSS and explaining how the code on PBL connects to college board topics, also there was a good explanation of topics that connected to the theme of the webpage as long as a thorough cover of the readme [Commit](https://github.com/jeankim05/flask_portfolio/commit/6fe4a4d2c68b79672ac07a3e86f9dcdd359673b6) | 7.5/8, 7.5/8, 7.25/8, 7.75/8 | 7.5/8
 
-### Sprint_9,10_Week_9
+### Sprint_9,10_Week_10
 
 Name | Requirements | Evidence / Tangibles |
 ---- | ------------ | -------------------- |
