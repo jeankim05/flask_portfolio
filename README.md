@@ -2,6 +2,7 @@
 Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 
 ## Table of Contents
+- [Project / Website Description](#project_/_website_description)
 - [Credits](#credits)
 - [Runtime Link](#runtime_link)
 - [Sprint 1 Week 0](#sprint_1_week_0)
@@ -14,6 +15,8 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 7,8 Week 8](#sprint_78_week_8)
 - [Sprint 9,10 Week 9](#sprint_910_week_9)
 - [Sprint 9,10 Week 10](#sprint_910_week_10)
+
+### Project / Website Description
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
