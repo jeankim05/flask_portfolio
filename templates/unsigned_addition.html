@@ -176,6 +176,30 @@
 {% block body %}
 <h1 class="text-center">Unsigned Addition Lab</h1>
 <div class="container">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12">
+                <table class="table">
+                    <tr id="table">
+                        <th>Plus</th>
+                        <th>Binary</th>
+                        <th>Octal</th>
+                        <th>Hexadecimal</th>
+                        <th>Decimal</th>
+                        <!-- Hack: display ASCII label for printable character(s)  -->
+                        <th>ASCII</th>
+                        <th>Minus</th>
+                    </tr>
+                    <td id="binary">00000000</td>
+                    <td id="octal">0</td>
+                    <td id="hexadecimal">0</td>
+                    <td id="decimal">0</td>
+                    <!-- Hack: display ASCII printable character(s)  -->
+                    <td id="ascii">0</td>
+                    </tr>
+
+                </table>
+            </div>
     <div class="col-12">
         <table class="table">
             {% for i in range(BITS) %} {# we just want 8 bits per row #}
