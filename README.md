@@ -2,7 +2,7 @@
 Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 
 ## Table of Contents
-- [Project / Website Description](#project_/_website_description)
+- [Project / Website Description](#project--website-description)
 - [Credits](#credits)
 - [Runtime Link](#runtime_link)
 - [Sprint 1 Week 0](#sprint_1_week_0)
