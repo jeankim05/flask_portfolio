@@ -13,6 +13,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 7,8 Week 7](#sprint_78_week_7)
 - [Sprint 7,8 Week 8](#sprint_78_week_8)
 - [Sprint 9,10 Week 9](#sprint_910_week_9)
+- [Sprint 9,10 Week 10](#sprint_910_week_10)
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
@@ -126,3 +127,12 @@ Jean | Good work on scrum board and working on the PBL with the group, showed ex
 Jay | Good tangible commits including image manipulation, CSS and styling, and the API from rapidapi, may want to work on adding more pages so that the athletes pages have more depth and getting more significant commits, also there were good explanations of both the API and the variables being used in the CSS nad styling, there was also a live runtime of the concepts, but there was no connection to the topics in college board [Commit](https://github.com/jeankim05/flask_portfolio/commit/91bc481fa0de8121e424062df0e878469a858d36) | 7/8, 7/8, 7/8 7/8 | 7/8 (missing college board quizzes)
 Allie | Good CSS and styling on women's apparel page, nice use of conditionals for image manipulation, may want to try and incorporate CSS to the navbar and try to get more significant commits, video was a little long, so it was harder to stay focused throughout, but the font and unity matched well with the theme of the project overall [Commit](https://github.com/jeankim05/flask_portfolio/commit/b50fb32a3ac0e290967e9931bb77e71502a4773e) | 7/8, 7.25/8, 7.25/8, 7.25/8 | 7.2/8 (missing college board quizzes)
 Alex | Good use of images and accompanying links to the websites, demonstrating competence in iterations and conditionals, could have focused more on CSS and explaining how the code on PBL connects to college board topics, also there was a good explanation of topics that connected to the theme of the webpage as long as a thorough cover of the readme [Commit](https://github.com/jeankim05/flask_portfolio/commit/6fe4a4d2c68b79672ac07a3e86f9dcdd359673b6) | 7.5/8, 7.5/8, 7.25/8, 7.75/8 | 7.5/8
+
+### Sprint_9,10_Week_10
+
+Name | Requirements | Evidence / Tangibles |
+---- | ------------ | -------------------- |
+Jean | Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Creating website forum, updating sports pages with CSS, project theme and design | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to ticket on scrum board](https://github.com/jeankim05/flask_portfolio/issues/62)
+Jay| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Athletes Page, adding a new sports search API, adding more CSS, project theme and design | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Allie| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Women's Apparel Page and Men's Apparel Pages with prices and recommendations, adding CSS, project theme and design | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Alex| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Home Page, adding CSS to all pages and navbar, project theme and design | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
