@@ -17,6 +17,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 9,10 Week 10](#sprint_910_week_10)
 
 ### Project / Website Description
+Our project is a sports website called Sports Hub. It aims to provide information on various sports, athletes, and apparel for both men and women. We incorporated many mini-lab features as well as separate files and technicals.
 
 ### Credits
 - [Team Scrum Board](https://github.com/jeankim05/flask_portfolio/projects/1)
