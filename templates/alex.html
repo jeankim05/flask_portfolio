@@ -19,38 +19,18 @@
 </div>
 
 <h1>About Me</h1>
-<p>Hello! my name is Alex, a junior at Del Norte. I came from Seoul, Korea about 8 years ago. I like listening to any types of music, playing basketball, and video games with my friends. My favorite subject in school is math. This is my first time working in a Computer Science class. I was new to this subject and didn't know anything about it. I would like to learn new programming and codes.</p>
-
+<p>Hello! my name is Alex, a junior at Del Norte. I came from Seoul, Korea about 8 years ago. I like listening to any types of music, playing basketball, and video games with my friends. My favorite subject in school is math. This is my first time working in a Computer Science class. I was new to this subject and didn't know anything about it. I would like to learn new programming and codes. Below is the picture of Seoul, where I grew up.</p>
+<img src="https://wishbeen-seoul.s3.ap-northeast-2.amazonaws.com/post/1453359808444_shutterstock_129286766.jpg" style="width:40%; height:45%" alt="The night view of Seoul.">
 <html>
-
-<body>
-
-<a href="http://127.0.0.1:5000/alexbinary">
-    <input type="Submit" value="Alex Binary Page"/>
-</a>
-
-</body>
-
+    <body>
+        <a href="http://127.0.0.1:5000/alexbinary">
+        <input type="Submit" value="Alex Binary Page"/>
+        </a>
+    </body>
 </html>
-
 {% endblock %}
 
-
-
-<!- This is turning off birds background from base.html -->
+<!- This is turning off birds background from base.html   -->
 {% block background %}
-<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-<script src="{{ url_for('static', filename='vanta.rings.min.js') }}"></script>
-<script>
-    VANTA.RINGS({
-        el: "body",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 201.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00
-    })
-</script>
+
 {% endblock %}
