@@ -9,6 +9,7 @@ from api.sportsapi import api_bp
 app = Flask(__name__)
 app.register_blueprint(api_bp)
 
+sportsList = []
 
 # connects default URL to render index.html
 @app.route('/')
@@ -293,10 +294,17 @@ def sportsforum():
     # submit button has been pushed
     if request.form:
         name = request.form.get("name")
+        sportsList.append(name)
         if len(name) != 0:  # input field has content
-            return render_template("sportsforum.html", greetforum=name)
+            return render_template("sportsforum.html", greetforum=sportsList)
     # starting and empty input default
     return render_template("sportsforum.html", greetforum="World")
+
+@app.route('/delete', methods=['GET', 'POST'])
+def delete():
+    if len(sportsList) > 0:
+        sportsList.pop(len(sportsList) - 1)
+    return render_template("sportsforum.html", nickname=sportsList)
 
 # runs the application on the development server
 if __name__ == "__main__":
