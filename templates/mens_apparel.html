@@ -33,7 +33,7 @@
     document.addEventListener('DOMContentLoaded',function(){
         document.getElementById("bluejacket-rotate").onclick = function() {
             var currentRotate = document.getElementById("bluejacket").style.transform;
-            if (currentRotate == "rotate(180deg)") {
+            if (currentRotate === "rotate(180deg)") {
                 document.getElementById("bluejacket").style.transform = "rotate(360deg)";
             } else {
                 document.getElementById("bluejacket").style.transform = "rotate(180deg)";
@@ -130,7 +130,6 @@
         </li>
     </ol>
 </p2>
-
 </body>
 {% endblock %}
 
