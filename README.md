@@ -15,6 +15,7 @@ Jean Kim, Jay Manjrekar, Allie Xiao, Alex Do
 - [Sprint 7,8 Week 8](#sprint_78_week_8)
 - [Sprint 9,10 Week 9](#sprint_910_week_9)
 - [Sprint 9,10 Week 10](#sprint_910_week_10)
+- [Draft Night At the Museum](#draft-night-at-the-museum)
 
 ### Project / Website Description
 Our project is a sports website called Sports Hub. It aims to provide information on various sports, athletes, and apparel for both men and women. We incorporated many mini-lab features as well as separate files and technicals.
@@ -140,3 +141,13 @@ Jean | Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, J
 Jay| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Athletes Page, adding a new sports search API, adding more CSS, project theme and design | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/63)
 Allie| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Women's Apparel Page and Men's Apparel Pages with prices and recommendations, adding CSS, project theme and design | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/64)
 Alex| Journal Notes on 4.1 Work and Quiz, Journal Notes on 4.2 Work and Quiz, Journal Notes on 4.3 Work and Quiz, Updating Home Page, adding CSS to all pages and navbar, project theme and design | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing) // [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/60)
+
+### Draft Night At the Museum
+
+Name | Requirements | Evidence / Tangibles |
+---- | ------------ | -------------------- |
+Jean | Journal Notes on 5.1 Work and Quiz, Journal Notes on 5.2 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Jay| Journal Notes on 5.1 Work and Quiz, Journal Notes on 5.2 Work and Quiz | [Jean Kim and Jay Manjrekar Journal](https://docs.google.com/document/d/1bYsR9b6nUoS4Svl8AnUcRA0bOjl8gRcyT-kbd1AhnOc/edit?usp=sharing)
+Allie| Journal Notes on 5.1 Work and Quiz, Journal Notes on 5.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Alex| Journal Notes on 5.1 Work and Quiz, Journal Notes on 5.2 Work and Quiz | [Allie Xiao and Alex Do Journal](https://docs.google.com/document/d/1M3uMIrhcwQYRoes55MLlfpXWSMjIIvjR96f8v07PCUU/edit?usp=sharing)
+Everyone | Updating CSS, creating new and interesting features for PBL website | [Link to Ticket on Scrum Board](https://github.com/jeankim05/flask_portfolio/issues/67)
